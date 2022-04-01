@@ -28,6 +28,7 @@
             Console.WriteLine("1) Registrarse.");
             Console.WriteLine("2) Login.");
             Console.WriteLine("==============================");
+            Console.Write("Opcion: ");  
             ansRegistro = int.Parse(Console.ReadLine());
             Console.Clear();
             return ansRegistro;
@@ -48,6 +49,7 @@
             Console.WriteLine("3) Cambiar Usuario y Contraseña.");
             Console.WriteLine("4) Cerrar Sesion");
             Console.WriteLine("==========================================");
+            Console.Write("Opcion: ");
             ansCasos = int.Parse(Console.ReadLine());
             Console.Clear();
             return ansCasos;
