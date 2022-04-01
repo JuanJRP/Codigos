@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\bin\Debug\net6.0\Ceros Factoriales Recursividad.exe
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\bin\Debug\net6.0\Ceros Factoriales Recursividad.deps.json
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\bin\Debug\net6.0\Ceros Factoriales Recursividad.runtimeconfig.json
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\bin\Debug\net6.0\Ceros Factoriales Recursividad.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\bin\Debug\net6.0\Ceros Factoriales Recursividad.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\refint\Ceros Factoriales Recursividad.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\Ceros Factoriales Recursividad.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Recursividad\Ceros Factoriales Recursividad\obj\Debug\net6.0\ref\Ceros Factoriales Recursividad.dll

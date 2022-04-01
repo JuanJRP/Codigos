@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\bin\Debug\net6.0\Tablas de multiplicar.exe
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\bin\Debug\net6.0\Tablas de multiplicar.deps.json
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\bin\Debug\net6.0\Tablas de multiplicar.runtimeconfig.json
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\bin\Debug\net6.0\Tablas de multiplicar.dll
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\bin\Debug\net6.0\Tablas de multiplicar.pdb
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.dll
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\refint\Tablas de multiplicar.dll
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.pdb
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\Tablas de multiplicar.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Tablas de multiplicar\Tablas de multiplicar\obj\Debug\net6.0\ref\Tablas de multiplicar.dll

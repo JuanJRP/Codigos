@@ -1,0 +1,30 @@
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.exe
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.deps.json
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.runtimeconfig.json
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\refint\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Ceros Factoriales\Ceros Factoriales\obj\Debug\net6.0\ref\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.exe
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.deps.json
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.runtimeconfig.json
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\bin\Debug\net6.0\Ceros Factoriales.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\refint\Ceros Factoriales.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\Ceros Factoriales.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Parcial\Ceros Factoriales\obj\Debug\net6.0\ref\Ceros Factoriales.dll

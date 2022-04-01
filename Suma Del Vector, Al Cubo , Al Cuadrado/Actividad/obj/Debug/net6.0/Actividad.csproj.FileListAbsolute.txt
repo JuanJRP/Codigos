@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Actividad\Actividad\bin\Debug\net6.0\Actividad.exe
+C:\Users\jojan\source\repos\Actividad\Actividad\bin\Debug\net6.0\Actividad.deps.json
+C:\Users\jojan\source\repos\Actividad\Actividad\bin\Debug\net6.0\Actividad.runtimeconfig.json
+C:\Users\jojan\source\repos\Actividad\Actividad\bin\Debug\net6.0\Actividad.dll
+C:\Users\jojan\source\repos\Actividad\Actividad\bin\Debug\net6.0\Actividad.pdb
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.dll
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\refint\Actividad.dll
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.pdb
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\Actividad.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Actividad\Actividad\obj\Debug\net6.0\ref\Actividad.dll

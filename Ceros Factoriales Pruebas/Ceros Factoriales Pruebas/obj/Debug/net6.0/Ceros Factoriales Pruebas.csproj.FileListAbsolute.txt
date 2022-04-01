@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\bin\Debug\net6.0\Ceros Factoriales Pruebas.exe
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\bin\Debug\net6.0\Ceros Factoriales Pruebas.deps.json
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\bin\Debug\net6.0\Ceros Factoriales Pruebas.runtimeconfig.json
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\bin\Debug\net6.0\Ceros Factoriales Pruebas.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\bin\Debug\net6.0\Ceros Factoriales Pruebas.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\refint\Ceros Factoriales Pruebas.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\Ceros Factoriales Pruebas.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Pruebas\Ceros Factoriales Pruebas\obj\Debug\net6.0\ref\Ceros Factoriales Pruebas.dll

@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\bin\Debug\net6.0\Ceros Factoriales Default.exe
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\bin\Debug\net6.0\Ceros Factoriales Default.deps.json
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\bin\Debug\net6.0\Ceros Factoriales Default.runtimeconfig.json
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\bin\Debug\net6.0\Ceros Factoriales Default.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\bin\Debug\net6.0\Ceros Factoriales Default.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\refint\Ceros Factoriales Default.dll
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.pdb
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\Ceros Factoriales Default.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Ceros Factoriales Default\Ceros Factoriales Default\obj\Debug\net6.0\ref\Ceros Factoriales Default.dll

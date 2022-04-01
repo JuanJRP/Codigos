@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Login\Login\bin\Release\net6.0\win-x64\Login.exe
+C:\Users\jojan\source\repos\Login\Login\bin\Release\net6.0\win-x64\Login.deps.json
+C:\Users\jojan\source\repos\Login\Login\bin\Release\net6.0\win-x64\Login.runtimeconfig.json
+C:\Users\jojan\source\repos\Login\Login\bin\Release\net6.0\win-x64\Login.dll
+C:\Users\jojan\source\repos\Login\Login\bin\Release\net6.0\win-x64\Login.pdb
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.dll
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\refint\Login.dll
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.pdb
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\Login.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Login\Login\obj\Release\net6.0\win-x64\ref\Login.dll

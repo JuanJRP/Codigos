@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.AssemblyInfo.cs
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\bin\Debug\net6.0\Numeros Multiplos De Tres.exe
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\bin\Debug\net6.0\Numeros Multiplos De Tres.deps.json
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\bin\Debug\net6.0\Numeros Multiplos De Tres.runtimeconfig.json
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\bin\Debug\net6.0\Numeros Multiplos De Tres.dll
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\bin\Debug\net6.0\Numeros Multiplos De Tres.pdb
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.dll
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\refint\Numeros Multiplos De Tres.dll
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.pdb
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\Numeros Multiplos De Tres.genruntimeconfig.cache
+C:\Users\jojan\source\repos\Numeros Multiplos De Tres\Numeros Multiplos De Tres\obj\Debug\net6.0\ref\Numeros Multiplos De Tres.dll
