@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    public class Persona
+    public class Datos
     {
         public string usuarioR { get; set; }
         public string contraseñaR { get; set; }
@@ -62,7 +62,7 @@
         {
             bool cerrar = false, sig = false;
             int ansRegistro, ansCasos;
-            Persona person = new Persona();
+            Datos person = new Datos();
 
             do
             {
