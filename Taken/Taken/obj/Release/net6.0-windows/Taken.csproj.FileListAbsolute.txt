@@ -20,3 +20,4 @@ C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\refint\Taken.
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\Taken.pdb
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\Taken.genruntimeconfig.cache
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\ref\Taken.dll
+C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\Taken.T_ESAY.resources

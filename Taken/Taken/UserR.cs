@@ -9,6 +9,6 @@ namespace Taken
     public class User
     {
         static public string userR;
-        static public int passwdR;
+        static public string passwdR;
     }
 }

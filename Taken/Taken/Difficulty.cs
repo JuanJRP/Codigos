@@ -37,7 +37,10 @@ namespace Taken
 
         private void btnEASY_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            T_ESAY t_ESAY = new T_ESAY();
+            t_ESAY.llenar();
+            t_ESAY.Show();
         }
         private void btnEASY_MouseMove(object sender, MouseEventArgs e)
         {

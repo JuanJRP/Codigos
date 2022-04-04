@@ -103,7 +103,7 @@ namespace Taken
             error1.SetError(textPassRR, "");
 
             User.userR = textUserR.Text;
-            User.passwdR = int.Parse(textPassRR.Text);
+            User.passwdR = textPassRR.Text;
             this.Hide();
             Login login = new Login();
             login.Show();
@@ -115,27 +115,11 @@ namespace Taken
         }
         private void btnPassR_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Validar que sean numeros
-            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
-            {
-                error1.SetError(textPassR, "Letters are not allowed. ");
-                textPassR.Focus();
-                e.Handled = true;
-                return;
-            }
-            error1.SetError(textPassR, "");
+            
         }
         private void btnPassRR_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Validar que sean numeros
-            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
-            {
-                error1.SetError(textPassRR, "Letters are not allowed. ");
-                textPassRR.Focus();
-                e.Handled = true;
-                return;
-            }
-            error1.SetError(textPassRR, "");
+            
         }
     }
 }

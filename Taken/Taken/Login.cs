@@ -65,7 +65,7 @@ namespace Taken
             error1.SetError(textPass, "");
 
             //Validar Numeros
-            if (User.userR == textUser.Text && User.passwdR == int.Parse(textPass.Text))
+            if (User.userR == textUser.Text && User.passwdR == textPass.Text)
             {
                 this.Hide();
                 Difficulty difficulty = new Difficulty();

@@ -19,5 +19,8 @@
     <Compile Update="Sing_up.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="T_ESAY.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
