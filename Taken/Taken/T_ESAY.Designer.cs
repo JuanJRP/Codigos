@@ -41,6 +41,7 @@
             this.labelCount = new System.Windows.Forms.Label();
             this.btn11 = new System.Windows.Forms.Button();
             this.btn12 = new System.Windows.Forms.Button();
+            this.labelWin = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +55,7 @@
             this.btn1.Text = "button1";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.button1_Click);
+            this.btn1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // panel1
             // 
@@ -81,6 +83,7 @@
             this.btn9.Text = "button9";
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn8
             // 
@@ -92,6 +95,7 @@
             this.btn8.Text = "button8";
             this.btn8.UseVisualStyleBackColor = true;
             this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn7
             // 
@@ -103,6 +107,7 @@
             this.btn7.Text = "button7";
             this.btn7.UseVisualStyleBackColor = true;
             this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn6
             // 
@@ -114,6 +119,7 @@
             this.btn6.Text = "button6";
             this.btn6.UseVisualStyleBackColor = true;
             this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn5
             // 
@@ -125,6 +131,7 @@
             this.btn5.Text = "button5";
             this.btn5.UseVisualStyleBackColor = true;
             this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn4
             // 
@@ -136,6 +143,7 @@
             this.btn4.Text = "button4";
             this.btn4.UseVisualStyleBackColor = true;
             this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn3
             // 
@@ -147,6 +155,7 @@
             this.btn3.Text = "button3";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // btn2
             // 
@@ -158,12 +167,13 @@
             this.btn2.Text = "button2";
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
             // labelCount
             // 
             this.labelCount.AutoSize = true;
             this.labelCount.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCount.Location = new System.Drawing.Point(457, 106);
+            this.labelCount.Location = new System.Drawing.Point(460, 71);
             this.labelCount.Name = "labelCount";
             this.labelCount.Size = new System.Drawing.Size(246, 17);
             this.labelCount.TabIndex = 0;
@@ -191,11 +201,23 @@
             this.btn12.UseVisualStyleBackColor = true;
             this.btn12.Click += new System.EventHandler(this.btn12_Click);
             // 
+            // labelWin
+            // 
+            this.labelWin.AutoSize = true;
+            this.labelWin.Font = new System.Drawing.Font("Engravers MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelWin.Location = new System.Drawing.Point(482, 115);
+            this.labelWin.Name = "labelWin";
+            this.labelWin.Size = new System.Drawing.Size(220, 34);
+            this.labelWin.TabIndex = 11;
+            this.labelWin.Text = "YOU WIN!!";
+            this.labelWin.Visible = false;
+            // 
             // T_ESAY
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelWin);
             this.Controls.Add(this.btn12);
             this.Controls.Add(this.btn11);
             this.Controls.Add(this.labelCount);
@@ -224,5 +246,6 @@
         private Label labelCount;
         private Button btn11;
         private Button btn12;
+        private Label labelWin;
     }
 }

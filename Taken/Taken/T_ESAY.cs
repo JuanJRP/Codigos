@@ -235,7 +235,14 @@ namespace Taken
 
         private void btn11_Click(object sender, EventArgs e)
         {
-            llenar();
+            btn1.Text = Convert.ToString(vec[0]);
+            btn2.Text = Convert.ToString(vec[1]);
+            btn3.Text = Convert.ToString(vec[2]);
+            btn4.Text = Convert.ToString(vec[3]);
+            btn5.Text = Convert.ToString(vec[4]);
+            btn6.Text = Convert.ToString(vec[5]);
+            btn7.Text = Convert.ToString(vec[6]);
+            btn8.Text = Convert.ToString(vec[7]);
             labelCount.Text = $"Numero de clicks: {count}";
         }
 
@@ -261,6 +268,16 @@ namespace Taken
                 count += 1;
             }
             labelCount.Text = $"Numero de clicks: {count}";
+        }
+
+        public void MouseMoveWin(object sender, MouseEventArgs e)
+        {
+            if (btn1.Text == "1" || btn2.Text == "2" || btn3.Text == "3" || 
+                btn4.Text == "4" || btn5.Text == "5" || btn6.Text == "6" ||
+                btn7.Text == "7" || btn8.Text == "8" || btn9.Text == "")
+            {
+                labelWin.Visible = true;
+            }
         }
     }
 }
