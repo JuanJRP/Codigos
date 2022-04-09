@@ -36,6 +36,7 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textInfo = new System.Windows.Forms.TextBox();
+            this.labelName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,12 +135,25 @@
             this.textInfo.TabIndex = 6;
             this.textInfo.TextChanged += new System.EventHandler(this.textInfo_TextChanged);
             // 
+            // labelName
+            // 
+            this.labelName.AutoSize = true;
+            this.labelName.BackColor = System.Drawing.Color.Black;
+            this.labelName.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelName.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelName.Location = new System.Drawing.Point(634, 30);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(58, 15);
+            this.labelName.TabIndex = 7;
+            this.labelName.Text = "algo";
+            // 
             // Difficulty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelName);
             this.Controls.Add(this.textInfo);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnHard);
@@ -165,5 +179,6 @@
         private Button btnBack;
         private PictureBox pictureBox1;
         private TextBox textInfo;
+        private Label labelName;
     }
 }

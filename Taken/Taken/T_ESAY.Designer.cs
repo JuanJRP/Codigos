@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btn1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
@@ -41,14 +40,20 @@
             this.labelCount = new System.Windows.Forms.Label();
             this.btn11 = new System.Windows.Forms.Button();
             this.btn12 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn1back = new System.Windows.Forms.Button();
+            this.labelCountF = new System.Windows.Forms.Label();
+            this.labelScore = new System.Windows.Forms.Label();
             this.labelWin = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn1.Location = new System.Drawing.Point(8, 7);
+            this.btn1.Location = new System.Drawing.Point(88, 71);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(90, 90);
             this.btn1.TabIndex = 0;
@@ -57,26 +62,10 @@
             this.btn1.Click += new System.EventHandler(this.button1_Click);
             this.btn1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MouseMoveWin);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btn9);
-            this.panel1.Controls.Add(this.btn8);
-            this.panel1.Controls.Add(this.btn7);
-            this.panel1.Controls.Add(this.btn6);
-            this.panel1.Controls.Add(this.btn5);
-            this.panel1.Controls.Add(this.btn4);
-            this.panel1.Controls.Add(this.btn3);
-            this.panel1.Controls.Add(this.btn2);
-            this.panel1.Controls.Add(this.btn1);
-            this.panel1.Location = new System.Drawing.Point(68, 64);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 300);
-            this.panel1.TabIndex = 1;
-            // 
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn9.Location = new System.Drawing.Point(200, 199);
+            this.btn9.Location = new System.Drawing.Point(280, 263);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(90, 90);
             this.btn9.TabIndex = 8;
@@ -88,7 +77,7 @@
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn8.Location = new System.Drawing.Point(104, 199);
+            this.btn8.Location = new System.Drawing.Point(184, 263);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(90, 90);
             this.btn8.TabIndex = 7;
@@ -100,7 +89,7 @@
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn7.Location = new System.Drawing.Point(8, 199);
+            this.btn7.Location = new System.Drawing.Point(88, 263);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(90, 90);
             this.btn7.TabIndex = 6;
@@ -112,7 +101,7 @@
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn6.Location = new System.Drawing.Point(200, 103);
+            this.btn6.Location = new System.Drawing.Point(280, 167);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(90, 90);
             this.btn6.TabIndex = 5;
@@ -124,7 +113,7 @@
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn5.Location = new System.Drawing.Point(104, 103);
+            this.btn5.Location = new System.Drawing.Point(184, 167);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(90, 90);
             this.btn5.TabIndex = 4;
@@ -136,7 +125,7 @@
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn4.Location = new System.Drawing.Point(8, 103);
+            this.btn4.Location = new System.Drawing.Point(88, 167);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(90, 90);
             this.btn4.TabIndex = 3;
@@ -148,7 +137,7 @@
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn3.Location = new System.Drawing.Point(200, 7);
+            this.btn3.Location = new System.Drawing.Point(280, 71);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(90, 90);
             this.btn3.TabIndex = 2;
@@ -160,7 +149,7 @@
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Engravers MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn2.Location = new System.Drawing.Point(104, 7);
+            this.btn2.Location = new System.Drawing.Point(184, 71);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(90, 90);
             this.btn2.TabIndex = 1;
@@ -201,15 +190,78 @@
             this.btn12.UseVisualStyleBackColor = true;
             this.btn12.Click += new System.EventHandler(this.btn12_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Taken.Properties.Resources._24_246645_programming_languages_wallpaper_hd;
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(811, 468);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox2.Location = new System.Drawing.Point(-5, -12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(811, 468);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // btn1back
+            // 
+            this.btn1back.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn1back.Font = new System.Drawing.Font("Engravers MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn1back.ForeColor = System.Drawing.Color.White;
+            this.btn1back.Location = new System.Drawing.Point(289, 293);
+            this.btn1back.Name = "btn1back";
+            this.btn1back.Size = new System.Drawing.Size(195, 60);
+            this.btn1back.TabIndex = 14;
+            this.btn1back.Text = "BACK";
+            this.btn1back.UseVisualStyleBackColor = false;
+            this.btn1back.Visible = false;
+            this.btn1back.Click += new System.EventHandler(this.btn1back_Click);
+            // 
+            // labelCountF
+            // 
+            this.labelCountF.AutoSize = true;
+            this.labelCountF.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelCountF.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelCountF.ForeColor = System.Drawing.Color.White;
+            this.labelCountF.Location = new System.Drawing.Point(262, 197);
+            this.labelCountF.Name = "labelCountF";
+            this.labelCountF.Size = new System.Drawing.Size(222, 17);
+            this.labelCountF.TabIndex = 15;
+            this.labelCountF.Text = "Numero de click: ";
+            this.labelCountF.Visible = false;
+            this.labelCountF.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // labelScore
+            // 
+            this.labelScore.AutoSize = true;
+            this.labelScore.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelScore.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelScore.ForeColor = System.Drawing.Color.White;
+            this.labelScore.Location = new System.Drawing.Point(331, 240);
+            this.labelScore.Name = "labelScore";
+            this.labelScore.Size = new System.Drawing.Size(86, 17);
+            this.labelScore.TabIndex = 16;
+            this.labelScore.Text = "SCORE:\r\n";
+            this.labelScore.Visible = false;
+            // 
             // labelWin
             // 
             this.labelWin.AutoSize = true;
-            this.labelWin.Font = new System.Drawing.Font("Engravers MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelWin.Location = new System.Drawing.Point(482, 115);
+            this.labelWin.BackColor = System.Drawing.Color.Black;
+            this.labelWin.Font = new System.Drawing.Font("Engravers MT", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.labelWin.ForeColor = System.Drawing.Color.White;
+            this.labelWin.Location = new System.Drawing.Point(43, 49);
             this.labelWin.Name = "labelWin";
-            this.labelWin.Size = new System.Drawing.Size(220, 34);
-            this.labelWin.TabIndex = 11;
-            this.labelWin.Text = "YOU WIN!!";
+            this.labelWin.Size = new System.Drawing.Size(707, 112);
+            this.labelWin.TabIndex = 17;
+            this.labelWin.Text = "YOU WIN!!\r\n";
             this.labelWin.Visible = false;
             // 
             // T_ESAY
@@ -217,15 +269,29 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn1back);
+            this.Controls.Add(this.labelScore);
+            this.Controls.Add(this.labelCountF);
             this.Controls.Add(this.labelWin);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.btn8);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.btn9);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn6);
             this.Controls.Add(this.btn12);
+            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn11);
             this.Controls.Add(this.labelCount);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "T_ESAY";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "T_ESAY";
-            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,7 +300,6 @@
         #endregion
 
         private Button btn1;
-        private Panel panel1;
         private Button btn9;
         private Button btn8;
         private Button btn7;
@@ -246,6 +311,11 @@
         private Label labelCount;
         private Button btn11;
         private Button btn12;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Button btn1back;
+        private Label labelCountF;
+        private Label labelScore;
         private Label labelWin;
     }
 }

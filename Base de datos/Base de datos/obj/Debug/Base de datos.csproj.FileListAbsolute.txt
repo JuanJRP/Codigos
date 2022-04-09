@@ -1,0 +1,73 @@
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Base de datos.dll.config
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Base de datos.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Base de datos.pdb
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csc.exe
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csc.exe.config
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csc.rsp
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csi.exe
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csi.exe.config
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\csi.rsp
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.AppContext.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Console.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.IO.Compression.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Net.Http.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.ValueTuple.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\vbc.exe
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\vbc.exe.config
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\vbc.rsp
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\VBCSCompiler.exe
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.csproj.CopyComplete
+C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.pdb
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\MySql.Data.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Google.Protobuf.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\ZstdNet.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\BouncyCastle.Crypto.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Ubiety.Dns.Core.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Security.Permissions.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Text.Encoding.CodePages.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Memory.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Compression.LZ4.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Hash.xxHash.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\MySql.Data.xml

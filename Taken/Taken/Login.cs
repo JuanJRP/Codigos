@@ -44,7 +44,7 @@ namespace Taken
             }
 
         }
-        private void btnEntrar_Click(object sender, EventArgs e)
+        public void btnEntrar_Click(object sender, EventArgs e)
         {
             //Validar Texto
 
@@ -64,16 +64,17 @@ namespace Taken
             }
             error1.SetError(textPass, "");
 
-            //Validar Numeros
+            //Validar usuario y contraseña
             if (User.userR == textUser.Text && User.passwdR == textPass.Text)
             {
+                
                 this.Hide();
                 Difficulty difficulty = new Difficulty();
                 difficulty.Show();
             }
             else
             {
-                MessageBox.Show("puto programa");
+                MessageBox.Show("Contraseña incorrecta");
             }
         }
 

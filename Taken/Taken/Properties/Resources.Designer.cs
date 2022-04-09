@@ -63,6 +63,16 @@ namespace Taken.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _24_246645_programming_languages_wallpaper_hd {
+            get {
+                object obj = ResourceManager.GetObject("24-246645_programming-languages-wallpaper-hd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6191107 {
             get {
                 object obj = ResourceManager.GetObject("6191107", resourceCulture);
