@@ -263,6 +263,7 @@
             this.labelWin.TabIndex = 17;
             this.labelWin.Text = "YOU WIN!!\r\n";
             this.labelWin.Visible = false;
+            this.labelWin.Click += new System.EventHandler(this.labelWin_Click_1);
             // 
             // T_ESAY
             // 

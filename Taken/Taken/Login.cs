@@ -67,7 +67,7 @@ namespace Taken
             //Validar usuario y contraseña
             if (User.userR == textUser.Text && User.passwdR == textPass.Text)
             {
-                
+                User.R = true;
                 this.Hide();
                 Difficulty difficulty = new Difficulty();
                 difficulty.Show();

@@ -10,5 +10,7 @@ namespace Taken
     {
         static public string userR;
         static public string passwdR;
+        static public int score;
+        static public bool R;
     }
 }

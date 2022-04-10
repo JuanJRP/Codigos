@@ -58,5 +58,32 @@ namespace Taken
         {
 
         }
+
+        private void labelName_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Difficulty_MouseMove(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (User.R == true)
+            {
+                User.score = 0;
+                labelName.Visible = true;
+                labelName.Text = "User: " + User.userR;
+                labelScore.Visible = true;
+                labelScore.Text = "Score: " + User.score;
+            }
+        }
+
+        private void labelScore_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

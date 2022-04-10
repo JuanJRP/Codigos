@@ -14,8 +14,6 @@ namespace Taken
     {
         int num,count;
         int[] vec = new int[8];
-        int score;
-
         static bool Repe(int num, int[] vect)
         {
             for (int i = 0; i < 8; i++)
@@ -291,22 +289,27 @@ namespace Taken
         private void btn1back_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Difficulty difficulty = new Difficulty();
-            difficulty.Show();
+             Difficulty difficulty = new Difficulty();
+             difficulty.Show();
+        }
+
+        private void labelWin_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         public void MouseMoveWin(object sender, MouseEventArgs e)
         {
             if (btn1.Text == "1" && btn2.Text == "2" && btn3.Text == "3" && btn4.Text == "4" && btn5.Text == "5" && btn6.Text == "6" && btn7.Text == "7" && btn8.Text == "8" && btn9.Text == "")
             {
-                score = 150;
+                User.score += 150;
                 labelWin.Visible = true;
                 labelCountF.Visible = true;
                 labelScore.Visible = true;
                 btn1back.Visible = true;
                 pictureBox2.Visible = true;
                 labelCountF.Text = $"NUMERO DE CLICKS: {count}";
-                labelScore.Text = $"SCORE: {score}";
+                labelScore.Text = $"SCORE: {User.score}";
             }
         }
     }

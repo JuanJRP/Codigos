@@ -37,6 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textInfo = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
+            this.labelScore = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,6 +121,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // textInfo
             // 
@@ -141,11 +143,27 @@
             this.labelName.BackColor = System.Drawing.Color.Black;
             this.labelName.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelName.ForeColor = System.Drawing.Color.Goldenrod;
-            this.labelName.Location = new System.Drawing.Point(634, 30);
+            this.labelName.Location = new System.Drawing.Point(28, 66);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(58, 15);
+            this.labelName.Size = new System.Drawing.Size(60, 15);
             this.labelName.TabIndex = 7;
-            this.labelName.Text = "algo";
+            this.labelName.Text = "name";
+            this.labelName.Visible = false;
+            this.labelName.Click += new System.EventHandler(this.labelName_Click);
+            // 
+            // labelScore
+            // 
+            this.labelScore.AutoSize = true;
+            this.labelScore.BackColor = System.Drawing.Color.Black;
+            this.labelScore.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelScore.ForeColor = System.Drawing.Color.Goldenrod;
+            this.labelScore.Location = new System.Drawing.Point(28, 93);
+            this.labelScore.Name = "labelScore";
+            this.labelScore.Size = new System.Drawing.Size(69, 15);
+            this.labelScore.TabIndex = 8;
+            this.labelScore.Text = "score";
+            this.labelScore.Visible = false;
+            this.labelScore.Click += new System.EventHandler(this.labelScore_Click);
             // 
             // Difficulty
             // 
@@ -153,6 +171,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelScore);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.textInfo);
             this.Controls.Add(this.btnBack);
@@ -164,6 +183,7 @@
             this.Name = "Difficulty";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Difficulty";
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Difficulty_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -180,5 +200,6 @@
         private PictureBox pictureBox1;
         private TextBox textInfo;
         private Label labelName;
+        private Label labelScore;
     }
 }
