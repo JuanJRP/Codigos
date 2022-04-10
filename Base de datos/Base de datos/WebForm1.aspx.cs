@@ -108,7 +108,7 @@ namespace Base_de_datos
         //INSERTAR DATOS-------------------------------------------------------------------------------------------------
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (num == 1)
+            if (TextBox6.Text == "1")
             {
                 cn.Open();
                 string insertar;
@@ -122,7 +122,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Empleados();
                 GridView1.DataBind();
             }
-            if (num == 2)
+            if (TextBox6.Text == "2")
             {
                 cn.Open();
                 string insertar;
@@ -138,7 +138,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Libros();
                 GridView1.DataBind();
             }
-            if (num == 3)
+            if (TextBox6.Text == "3")
             {
                 cn.Open();
                 string insertar;
@@ -153,7 +153,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Prestamos();
                 GridView1.DataBind();
             }
-            if (num == 4)
+            if (TextBox6.Text == "4")
             {
                 cn.Open();
                 string insertar;
@@ -168,7 +168,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Computadores();
                 GridView1.DataBind();
             }
-            if (num == 5)
+            if (TextBox6.Text == "5")
             {
                 cn.Open();
                 string insertar;
@@ -191,7 +191,7 @@ namespace Base_de_datos
         //MODIFICAR DATOS--------------------------------------------------------------------------------------------------------
         protected void Button2_Click(object sender, EventArgs e)
         {
-            if (num == 1)
+            if (TextBox6.Text == "1")
             {
                 cn.Open();
                 string actualizar = "UPDATE empleados set documento=@documento, nombre=@nombre, barrio=@barrio WHERE documento=@documento";
@@ -204,7 +204,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Empleados();
                 GridView1.DataBind();
             }
-            if (num == 2)
+            if (TextBox6.Text == "2")
             {
                 cn.Open();
                 string actualizar = "UPDATE libros set codigo=@codigo, titulo=@titulo, autor=@autor, Genero=@Genero, Tipo=@Tipo WHERE codigo=@codigo";
@@ -219,7 +219,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Libros();
                 GridView1.DataBind();
             }
-            if (num == 3)
+            if (TextBox6.Text == "3")
             {
                 cn.Open();
                 string actualizar = "UPDATE prestamos set codigo=@codigo, documento=@documento, fechaprestamo=@fechaprestamo, fechadevolucion=@fechadevolucion WHERE documento=@documento";
@@ -233,7 +233,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Prestamos();
                 GridView1.DataBind();
             }
-            if (num == 4)
+            if (TextBox6.Text == "4")
             {
                 cn.Open();
                 string actualizar = "UPDATE computadores set documentos=@documentos, nombres=@nombres, hora_de_inicio=@hora_de_inicio, hora_de_finalizacion=@hora_de_finalizacion WHERE documentos=@documentos";
@@ -247,7 +247,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Computadores();
                 GridView1.DataBind();
             }
-            if (num == 5)
+            if (TextBox6.Text == "5")
             {
                 cn.Open();
                 string actualizar = "UPDATE socios set documento=@documento, nombre=@nombre, barrio=@barrio WHERE documento=@documento";
@@ -266,7 +266,7 @@ namespace Base_de_datos
         //BORRAR DATOS----------------------------------------------------------------------------------------------------------
         protected void Button3_Click(object sender, EventArgs e)
         {
-            if (num == 1)
+            if (TextBox6.Text == "1")
             {
                 cn.Open();
                 string eliminar = "DELETE FROM empleados WHERE documento=@documento";
@@ -277,7 +277,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Empleados();
                 GridView1.DataBind();
             }
-            if (num == 2)
+            if (TextBox6.Text == "2")
             {
                 cn.Open();
                 string eliminar = "DELETE FROM libros WHERE codigo=@codigo";
@@ -288,7 +288,7 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Libros();
                 GridView1.DataBind();
             }
-            if (num == 3)
+            if (TextBox6.Text == "3")
             {
                 cn.Open();
                 string eliminar = "DELETE FROM prestamos WHERE codigo=@codigo";
@@ -299,12 +299,17 @@ namespace Base_de_datos
                 GridView1.DataSource = llenar_Prestamos();
                 GridView1.DataBind();
             }
-            if (num == 4)
+            if (TextBox6.Text == "4")
             {
-                GridView1.DataSource = llenar_Dele();
-                GridView1.DataBind();
+                cn.Open();
+                string eliminar = "DELETE FROM computadores WHERE documentos=@documentos";
+                MySqlCommand cmd = new MySqlCommand(eliminar, cn);
+                cmd.Parameters.AddWithValue("@documentos", TextBox1.Text);
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                GridView1.DataSource = llenar_Computadores();
             }
-            if (num == 5)
+            if (TextBox6.Text == "5")
             {
                 cn.Open();
                 string eliminar = "DELETE FROM socios WHERE documento=@documento";
@@ -333,7 +338,7 @@ namespace Base_de_datos
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
-            num = 1;
+            TextBox6.Text = Convert.ToString(1);
         }
         protected void Button5_Click(object sender, EventArgs e)
         {
@@ -349,7 +354,7 @@ namespace Base_de_datos
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
-            num = 2;
+            TextBox6.Text = Convert.ToString(2);
         }
 
         protected void Button6_Click(object sender, EventArgs e)
@@ -366,7 +371,7 @@ namespace Base_de_datos
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
-            num = 3;
+            TextBox6.Text = Convert.ToString(3);
         }
 
         protected void Button7_Click(object sender, EventArgs e)
@@ -383,7 +388,7 @@ namespace Base_de_datos
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
-            num = 4;
+            TextBox6.Text = Convert.ToString(4);
         }
 
         protected void Button8_Click(object sender, EventArgs e)
@@ -400,8 +405,8 @@ namespace Base_de_datos
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
-            num = 5;
+            TextBox6.Text = Convert.ToString(5);
         }
+        //----------------------------------------------------------------------------------------------------------------------------
     }
-    //----------------------------------------------------------------------------------------------------------------------------
 }
