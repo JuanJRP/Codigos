@@ -473,6 +473,21 @@ namespace Taken
 
         }
 
+        private void labelScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCountF_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelWin_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btn16_Click(object sender, EventArgs e)
         {
             if (btn12.Text == "")

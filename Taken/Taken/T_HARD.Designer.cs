@@ -57,7 +57,13 @@
             this.labelCount = new System.Windows.Forms.Label();
             this.btnback = new System.Windows.Forms.Button();
             this.btnRei = new System.Windows.Forms.Button();
+            this.btn1back = new System.Windows.Forms.Button();
+            this.labelScore = new System.Windows.Forms.Label();
+            this.labelCountF = new System.Windows.Forms.Label();
+            this.labelWin = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
@@ -72,6 +78,8 @@
             this.btn1.TabIndex = 0;
             this.btn1.Text = "button1";
             this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn2
             // 
@@ -85,6 +93,8 @@
             this.btn2.TabIndex = 1;
             this.btn2.Text = "button2";
             this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn3
             // 
@@ -98,6 +108,8 @@
             this.btn3.TabIndex = 2;
             this.btn3.Text = "button3";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn4
             // 
@@ -111,6 +123,8 @@
             this.btn4.TabIndex = 3;
             this.btn4.Text = "button4";
             this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn5
             // 
@@ -124,6 +138,8 @@
             this.btn5.TabIndex = 4;
             this.btn5.Text = "button5";
             this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn6
             // 
@@ -137,6 +153,8 @@
             this.btn6.TabIndex = 5;
             this.btn6.Text = "button6";
             this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn7
             // 
@@ -150,6 +168,8 @@
             this.btn7.TabIndex = 6;
             this.btn7.Text = "button7";
             this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn8
             // 
@@ -163,6 +183,8 @@
             this.btn8.TabIndex = 7;
             this.btn8.Text = "button8";
             this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn9
             // 
@@ -176,6 +198,8 @@
             this.btn9.TabIndex = 8;
             this.btn9.Text = "button9";
             this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn10
             // 
@@ -189,6 +213,8 @@
             this.btn10.TabIndex = 9;
             this.btn10.Text = "button10";
             this.btn10.UseVisualStyleBackColor = false;
+            this.btn10.Click += new System.EventHandler(this.btn10_Click);
+            this.btn10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn11
             // 
@@ -202,6 +228,8 @@
             this.btn11.TabIndex = 10;
             this.btn11.Text = "button11";
             this.btn11.UseVisualStyleBackColor = false;
+            this.btn11.Click += new System.EventHandler(this.btn11_Click);
+            this.btn11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn12
             // 
@@ -215,6 +243,8 @@
             this.btn12.TabIndex = 11;
             this.btn12.Text = "button12";
             this.btn12.UseVisualStyleBackColor = false;
+            this.btn12.Click += new System.EventHandler(this.btn12_Click);
+            this.btn12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn13
             // 
@@ -228,6 +258,8 @@
             this.btn13.TabIndex = 12;
             this.btn13.Text = "button13";
             this.btn13.UseVisualStyleBackColor = false;
+            this.btn13.Click += new System.EventHandler(this.btn13_Click);
+            this.btn13.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn14
             // 
@@ -241,6 +273,8 @@
             this.btn14.TabIndex = 13;
             this.btn14.Text = "button14";
             this.btn14.UseVisualStyleBackColor = false;
+            this.btn14.Click += new System.EventHandler(this.btn14_Click);
+            this.btn14.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn15
             // 
@@ -254,6 +288,8 @@
             this.btn15.TabIndex = 14;
             this.btn15.Text = "button15";
             this.btn15.UseVisualStyleBackColor = false;
+            this.btn15.Click += new System.EventHandler(this.btn15_Click);
+            this.btn15.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn16
             // 
@@ -267,6 +303,8 @@
             this.btn16.TabIndex = 15;
             this.btn16.Text = "button16";
             this.btn16.UseVisualStyleBackColor = false;
+            this.btn16.Click += new System.EventHandler(this.btn16_Click);
+            this.btn16.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn17
             // 
@@ -280,6 +318,8 @@
             this.btn17.TabIndex = 16;
             this.btn17.Text = "button17";
             this.btn17.UseVisualStyleBackColor = false;
+            this.btn17.Click += new System.EventHandler(this.btn17_Click);
+            this.btn17.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn18
             // 
@@ -293,6 +333,8 @@
             this.btn18.TabIndex = 17;
             this.btn18.Text = "button18";
             this.btn18.UseVisualStyleBackColor = false;
+            this.btn18.Click += new System.EventHandler(this.btn18_Click);
+            this.btn18.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn19
             // 
@@ -306,6 +348,8 @@
             this.btn19.TabIndex = 18;
             this.btn19.Text = "button19";
             this.btn19.UseVisualStyleBackColor = false;
+            this.btn19.Click += new System.EventHandler(this.btn19_Click);
+            this.btn19.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn20
             // 
@@ -320,6 +364,7 @@
             this.btn20.Text = "button20";
             this.btn20.UseVisualStyleBackColor = false;
             this.btn20.Click += new System.EventHandler(this.button20_Click);
+            this.btn20.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn21
             // 
@@ -333,6 +378,8 @@
             this.btn21.TabIndex = 20;
             this.btn21.Text = "button21";
             this.btn21.UseVisualStyleBackColor = false;
+            this.btn21.Click += new System.EventHandler(this.btn21_Click);
+            this.btn21.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn22
             // 
@@ -346,6 +393,8 @@
             this.btn22.TabIndex = 21;
             this.btn22.Text = "button22";
             this.btn22.UseVisualStyleBackColor = false;
+            this.btn22.Click += new System.EventHandler(this.btn22_Click);
+            this.btn22.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn23
             // 
@@ -359,6 +408,8 @@
             this.btn23.TabIndex = 22;
             this.btn23.Text = "button23";
             this.btn23.UseVisualStyleBackColor = false;
+            this.btn23.Click += new System.EventHandler(this.btn23_Click);
+            this.btn23.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn24
             // 
@@ -372,6 +423,8 @@
             this.btn24.TabIndex = 23;
             this.btn24.Text = "button24";
             this.btn24.UseVisualStyleBackColor = false;
+            this.btn24.Click += new System.EventHandler(this.btn24_Click);
+            this.btn24.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // btn25
             // 
@@ -385,6 +438,8 @@
             this.btn25.TabIndex = 24;
             this.btn25.Text = "button25";
             this.btn25.UseVisualStyleBackColor = false;
+            this.btn25.Click += new System.EventHandler(this.btn25_Click);
+            this.btn25.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn25_MouseMove);
             // 
             // pictureBox1
             // 
@@ -434,12 +489,81 @@
             this.btnRei.TabIndex = 26;
             this.btnRei.Text = "Reiniciar";
             this.btnRei.UseVisualStyleBackColor = false;
+            this.btnRei.Click += new System.EventHandler(this.btnRei_Click);
+            // 
+            // btn1back
+            // 
+            this.btn1back.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn1back.Font = new System.Drawing.Font("Engravers MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn1back.ForeColor = System.Drawing.Color.White;
+            this.btn1back.Location = new System.Drawing.Point(289, 296);
+            this.btn1back.Name = "btn1back";
+            this.btn1back.Size = new System.Drawing.Size(195, 60);
+            this.btn1back.TabIndex = 30;
+            this.btn1back.Text = "BACK";
+            this.btn1back.UseVisualStyleBackColor = false;
+            this.btn1back.Visible = false;
+            this.btn1back.Click += new System.EventHandler(this.btn1back_Click);
+            // 
+            // labelScore
+            // 
+            this.labelScore.AutoSize = true;
+            this.labelScore.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelScore.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelScore.ForeColor = System.Drawing.Color.White;
+            this.labelScore.Location = new System.Drawing.Point(331, 243);
+            this.labelScore.Name = "labelScore";
+            this.labelScore.Size = new System.Drawing.Size(86, 17);
+            this.labelScore.TabIndex = 32;
+            this.labelScore.Text = "SCORE:\r\n";
+            this.labelScore.Visible = false;
+            // 
+            // labelCountF
+            // 
+            this.labelCountF.AutoSize = true;
+            this.labelCountF.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelCountF.Font = new System.Drawing.Font("Engravers MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelCountF.ForeColor = System.Drawing.Color.White;
+            this.labelCountF.Location = new System.Drawing.Point(262, 200);
+            this.labelCountF.Name = "labelCountF";
+            this.labelCountF.Size = new System.Drawing.Size(222, 17);
+            this.labelCountF.TabIndex = 31;
+            this.labelCountF.Text = "Numero de click: ";
+            this.labelCountF.Visible = false;
+            // 
+            // labelWin
+            // 
+            this.labelWin.AutoSize = true;
+            this.labelWin.BackColor = System.Drawing.Color.Black;
+            this.labelWin.Font = new System.Drawing.Font("Engravers MT", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.labelWin.ForeColor = System.Drawing.Color.White;
+            this.labelWin.Location = new System.Drawing.Point(45, 27);
+            this.labelWin.Name = "labelWin";
+            this.labelWin.Size = new System.Drawing.Size(707, 112);
+            this.labelWin.TabIndex = 33;
+            this.labelWin.Text = "YOU WIN!!\r\n";
+            this.labelWin.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox2.Location = new System.Drawing.Point(-6, -13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(811, 468);
+            this.pictureBox2.TabIndex = 29;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // T_HARD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn1back);
+            this.Controls.Add(this.labelScore);
+            this.Controls.Add(this.labelCountF);
+            this.Controls.Add(this.labelWin);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelCount);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.btnRei);
@@ -473,6 +597,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "T_HARD";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -509,5 +634,10 @@
         private Label labelCount;
         private Button btnback;
         private Button btnRei;
+        private Button btn1back;
+        private Label labelScore;
+        private Label labelCountF;
+        private Label labelWin;
+        private PictureBox pictureBox2;
     }
 }

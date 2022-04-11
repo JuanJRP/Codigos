@@ -373,6 +373,7 @@
             this.labelScore.TabIndex = 23;
             this.labelScore.Text = "SCORE:\r\n";
             this.labelScore.Visible = false;
+            this.labelScore.Click += new System.EventHandler(this.labelScore_Click);
             // 
             // labelCountF
             // 
@@ -386,6 +387,7 @@
             this.labelCountF.TabIndex = 22;
             this.labelCountF.Text = "Numero de click: ";
             this.labelCountF.Visible = false;
+            this.labelCountF.Click += new System.EventHandler(this.labelCountF_Click);
             // 
             // labelWin
             // 
@@ -399,6 +401,7 @@
             this.labelWin.TabIndex = 24;
             this.labelWin.Text = "YOU WIN!!\r\n";
             this.labelWin.Visible = false;
+            this.labelWin.Click += new System.EventHandler(this.labelWin_Click);
             // 
             // pictureBox2
             // 
