@@ -56,15 +56,7 @@ namespace Taken
         }
         private void btnUserR_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Validar que no sean numeros
-            if ((e.KeyChar >= 32 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
-            {
-                error1.SetError(textUserR, "Numbers are not allowed as a user.");
-                textUserR.Focus();
-                e.Handled = true;
-                return;
-            }
-            error1.SetError(textUserR, "");
+
         }
 
         public void btnSinUp_Click(object sender, EventArgs e)

@@ -35,13 +35,6 @@ namespace Taken
         }
         private void btnEntrar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((e.KeyChar >= 32 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96 ) || (e.KeyChar >= 123 && e.KeyChar <= 255))
-            {
-                error1.SetError(textUser, "Numbers are not allowed as a user.");
-                textUser.Focus();
-                e.Handled = true;
-                return;
-            }
 
         }
         public void btnEntrar_Click(object sender, EventArgs e)
