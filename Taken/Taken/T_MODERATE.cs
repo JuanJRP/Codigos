@@ -334,7 +334,7 @@ namespace Taken
         {
             if (btn7.Text == "")
             {
-                btn6.Text = btn11.Text;
+                btn7.Text = btn11.Text;
                 btn11.Text = "";
                 count += 1;
             }
