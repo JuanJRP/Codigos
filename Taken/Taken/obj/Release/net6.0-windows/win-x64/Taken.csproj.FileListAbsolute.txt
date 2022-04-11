@@ -9,7 +9,6 @@ C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.Login.resources
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.Properties.Resources.resources
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.singUp.resources
-C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.Sing_up.resources
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.csproj.GenerateResource.cache
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jojan\source\repos\Taken\Taken\obj\Release\net6.0-windows\win-x64\Taken.AssemblyInfoInputs.cache
