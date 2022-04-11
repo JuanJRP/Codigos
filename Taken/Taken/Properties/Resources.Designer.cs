@@ -103,6 +103,26 @@ namespace Taken.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura2 {
+            get {
+                object obj = ResourceManager.GetObject("Captura2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura3 {
+            get {
+                object obj = ResourceManager.GetObject("Captura3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2022_03_28_at_1_34_45_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2022-03-28 at 1.34.45 PM", resourceCulture);

@@ -19,20 +19,26 @@ namespace Taken
 
         private void btnHard_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            T_HARD t_HARD = new T_HARD();
+            t_HARD.llenar();
+            t_HARD.Show();
         }
         private void btnHard_MouseMove(object sender, MouseEventArgs e)
         {
-            textInfo.Text = "THIS DIFFICULTY CONTAINS A 6X6 PUZZLE, IT IS FOCUSED ON PLAYERS WITH PREVIOUS EXPERIENCE AND TIME.";
+            textInfo.Text = "THIS DIFFICULTY CONTAINS A 5X5 PUZZLE, IT IS FOCUSED ON PLAYERS WITH PREVIOUS EXPERIENCE AND TIME.";
         }
         
         private void btnModerate_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            T_MODERATE t_MODERATE = new T_MODERATE();
+            t_MODERATE.llenar();
+            t_MODERATE.Show();
         }
         private void btnModerate_MouseMove(object sender, MouseEventArgs e)
         {
-            textInfo.Text = "THIS DIFFICULTY CONTAINS A 5X5 PUZZLE, PERFECT FOR A FULL GAME AND EXPERIENCED PLAYERS. ";
+            textInfo.Text = "THIS DIFFICULTY CONTAINS A 4X4 PUZZLE, PERFECT FOR A FULL GAME AND EXPERIENCED PLAYERS. ";
         }
 
         private void btnEASY_Click(object sender, EventArgs e)

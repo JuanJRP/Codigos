@@ -21,3 +21,5 @@ C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.Login.res
 C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.Sing_up.resources
 C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.singUp.resources
 C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.T_ESAY.resources
+C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.T_MODERATE.resources
+C:\Users\jojan\source\repos\Taken\Taken\obj\Debug\net6.0-windows\Taken.T_HARD.resources
