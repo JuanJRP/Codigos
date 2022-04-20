@@ -12,9 +12,20 @@ namespace Taken
 {
     public partial class singUp : Form
     {
-        Login login = new Login();
-        public singUp()
+        int aux = 1;
+        int score;
+        string[] userR = new string[5];
+        string[] passwordR = new string[5];
+        public singUp(string[] user, string[] password, int aux2, int _score = 0, int bandera = 0)
         {
+            if (bandera == 1)
+            {
+                this.userR = user;
+                this.passwordR = password;
+                this.aux = aux2;
+                this.score = _score;
+            }
+
             InitializeComponent();
         }
 
@@ -41,7 +52,7 @@ namespace Taken
         private void btnBackI_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Inicio inicio = new Inicio();
+            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
             inicio.Show();
         }
 
@@ -94,10 +105,12 @@ namespace Taken
             }
             error1.SetError(textPassRR, "");
 
-            User.userR = textUserR.Text;
-            User.passwdR = textPassRR.Text;
+
+            userR[aux] = textUserR.Text;
+            passwordR[aux] = textPassRR.Text;
+            aux += 1;
             this.Hide();
-            Login login = new Login();
+            Login login = new Login(userR,passwordR,aux,score,1);
             login.Show();
         }
 
@@ -112,6 +125,15 @@ namespace Taken
         private void btnPassRR_KeyPress(object sender, KeyPressEventArgs e)
         {
             
+        }
+
+        public void btnplay_Click(object sender, EventArgs e)
+        {
+            userR[aux] = textUserR.Text;
+            passwordR[aux] = textPassRR.Text;
+            this.Hide();
+            Login login = new Login(userR, passwordR,aux,score,1);
+            login.Show();
         }
     }
 }

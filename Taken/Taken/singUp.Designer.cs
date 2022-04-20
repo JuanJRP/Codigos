@@ -39,6 +39,7 @@
             this.textPassR = new System.Windows.Forms.TextBox();
             this.textUserR = new System.Windows.Forms.TextBox();
             this.error1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnplay = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.error1)).BeginInit();
             this.SuspendLayout();
@@ -155,6 +156,17 @@
             // 
             this.error1.ContainerControl = this;
             // 
+            // btnplay
+            // 
+            this.btnplay.Location = new System.Drawing.Point(713, 373);
+            this.btnplay.Name = "btnplay";
+            this.btnplay.Size = new System.Drawing.Size(75, 23);
+            this.btnplay.TabIndex = 19;
+            this.btnplay.Text = "button1";
+            this.btnplay.UseVisualStyleBackColor = true;
+            this.btnplay.Visible = false;
+            this.btnplay.Click += new System.EventHandler(this.btnplay_Click);
+            // 
             // singUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -169,6 +181,7 @@
             this.Controls.Add(this.btnSinUp);
             this.Controls.Add(this.btnBackI);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnplay);
             this.Name = "singUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "singUp";
@@ -191,5 +204,6 @@
         private TextBox textPassR;
         private TextBox textUserR;
         private ErrorProvider error1;
+        private Button btnplay;
     }
 }

@@ -12,7 +12,11 @@ namespace Taken
 {
     public partial class T_MODERATE : Form
     {
-        int num, count;
+        int aux = 1;
+        string userL = "";
+        string[] userR = new string[5];
+        string[] passwordR = new string[5];
+        int num, count, score;
         int[] vec = new int[15];
         static bool Repe(int num, int[] vect)
         {
@@ -61,8 +65,17 @@ namespace Taken
             btn15.Text = Convert.ToString(vec[14]);
             btn16.Text = "";
         }
-        public T_MODERATE()
+        public T_MODERATE(string[] user, string[] password, string _userL, int aux2,int _score, int bandera = 0)
         {
+            if (bandera == 1)
+            {
+                this.userR = user;
+                this.passwordR = password;
+                this.aux = aux2;
+                this.userL = _userL;
+                this.score = _score;
+            }
+
             InitializeComponent();
         }
 
@@ -90,8 +103,8 @@ namespace Taken
 
         private void btnback_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Difficulty difficulty = new Difficulty();
+            this.Close();
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
             difficulty.Show();
         }
         private void button1_Click(object sender, EventArgs e)
@@ -450,21 +463,21 @@ namespace Taken
             if (btn1.Text == "1" && btn2.Text == "2" && btn3.Text == "3" && btn4.Text == "4" && btn5.Text == "5" && btn6.Text == "6" && btn7.Text == "7" && btn8.Text == "8" && btn9.Text == "9" && btn10.Text == "10"
                 && btn11.Text == "11" && btn12.Text == "12" && btn13.Text == "13" && btn14.Text == "14" && btn15.Text == "15" && btn16.Text == "")
             {
-                User.score += 300;
+                score += 300;
                 labelWin.Visible = true;
                 labelCountF.Visible = true;
                 labelScore.Visible = true;
                 btn1back.Visible = true;
                 pictureBox2.Visible = true;
                 labelCountF.Text = $"NUMERO DE CLICKS: {count}";
-                labelScore.Text = $"SCORE: {User.score}";
+                labelScore.Text = $"SCORE: {score}";
             }
         }
 
         private void btn1back_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Difficulty difficulty = new Difficulty();
+            this.Close();
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
             difficulty.Show();
         }
 

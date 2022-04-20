@@ -8,9 +8,6 @@ namespace Taken
 {
     public class User
     {
-        static public string userR;
-        static public string passwdR;
-        static public int score;
         static public bool R;
     }
 }

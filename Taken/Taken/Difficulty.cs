@@ -12,15 +12,29 @@ namespace Taken
 {
     public partial class Difficulty : Form
     {
-        public Difficulty()
+        int aux = 1;
+        int score;
+        string userL = "";
+        string[] userR = new string[5];
+        string[] passwordR = new string[5];
+        public Difficulty(string[] user, string[] password,string _userL, int aux2,int _score = 0, int bandera = 0)
         {
+            if (bandera == 1)
+            {
+                this.userR = user;
+                this.passwordR = password;
+                this.aux = aux2;
+                this.userL = _userL;
+                this.score = _score;
+            }
+            
             InitializeComponent();
         }
 
         private void btnHard_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_HARD t_HARD = new T_HARD();
+            T_HARD t_HARD = new T_HARD(userR,passwordR,userL,aux, score,1);
             t_HARD.llenar();
             t_HARD.Show();
         }
@@ -32,7 +46,7 @@ namespace Taken
         private void btnModerate_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_MODERATE t_MODERATE = new T_MODERATE();
+            T_MODERATE t_MODERATE = new T_MODERATE(userR, passwordR, userL, aux, score, 1);
             t_MODERATE.llenar();
             t_MODERATE.Show();
         }
@@ -44,7 +58,7 @@ namespace Taken
         private void btnEASY_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_ESAY t_ESAY = new T_ESAY();
+            T_ESAY t_ESAY = new T_ESAY(userR, passwordR,userL, aux, score, 1);
             t_ESAY.llenar();
             t_ESAY.Show();
         }
@@ -55,8 +69,8 @@ namespace Taken
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Inicio inicio = new Inicio();
+            this.Close();
+            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
             inicio.Show();
         }
 
@@ -79,11 +93,10 @@ namespace Taken
         {
             if (User.R == true)
             {
-                User.score = 0;
                 labelName.Visible = true;
-                labelName.Text = "User: " + User.userR;
+                labelName.Text = "User: " + userL;
                 labelScore.Visible = true;
-                labelScore.Text = "Score: " + User.score;
+                labelScore.Text = "Score: " + score;
             }
         }
 

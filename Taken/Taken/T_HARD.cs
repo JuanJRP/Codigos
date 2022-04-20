@@ -12,7 +12,11 @@ namespace Taken
 {
     public partial class T_HARD : Form
     {
-        int num, count;
+        int aux = 1;
+        string userL = "";
+        string[] userR = new string[5];
+        string[] passwordR = new string[5];
+        int num, count, score;
         int[] vec = new int[24];
         static bool Repe(int num, int[] vect)
         {
@@ -70,8 +74,17 @@ namespace Taken
             btn24.Text = Convert.ToString(vec[23]);
             btn25.Text = "";
         }
-        public T_HARD()
+        public T_HARD(string[] user, string[] password, string _userL, int aux2, int _score, int bandera = 0)
         {
+            if (bandera == 1)
+            {
+                this.userR = user;
+                this.passwordR = password;
+                this.aux = aux2;
+                this.userL = _userL;
+                this.score = _score;
+            }
+
             InitializeComponent();
         }
 
@@ -107,8 +120,8 @@ namespace Taken
         }
         private void btnback_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Difficulty difficulty = new Difficulty();
+            this.Close();
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
             difficulty.Show();
         }
 
@@ -723,21 +736,26 @@ namespace Taken
                     && btn11.Text == "11" && btn12.Text == "12" && btn13.Text == "13" && btn14.Text == "14" && btn15.Text == "15" && btn16.Text == "16" && btn17.Text == "17" && btn18.Text == "18" && btn19.Text == "19"
                     && btn20.Text == "20" && btn21.Text == "21" && btn22.Text == "22" && btn23.Text == "23" && btn24.Text == "24" && btn25.Text == "")
             {
-                User.score += 500;
+                score += 500;
                 labelWin.Visible = true;
                 labelCountF.Visible = true;
                 labelScore.Visible = true;
                 btn1back.Visible = true;
                 pictureBox2.Visible = true;
                 labelCountF.Text = $"NUMERO DE CLICKS: {count}";
-                labelScore.Text = $"SCORE: {User.score}";
+                labelScore.Text = $"SCORE: {score}";
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btn1back_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Difficulty difficulty = new Difficulty();
+            this.Close();
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux,score, 1);
             difficulty.Show();
         }
     }

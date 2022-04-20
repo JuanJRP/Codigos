@@ -12,8 +12,20 @@ namespace Taken
 {
     public partial class Login : Form
     {
-        public Login()
+        int aux = 1;
+        bool log = false;
+        int score;
+        string[] userR = new string[5];
+        string[] passwordR = new string[5];
+        public Login(string[] user, string[] password,int aux2,int _score, int bandera = 0)
         {
+            if (bandera == 1)
+            {
+                this.userR = user;
+                this.passwordR = password;
+                this.aux = aux2;
+                this.score = _score;
+            }
             InitializeComponent();
         }
 
@@ -25,7 +37,7 @@ namespace Taken
         private void btnBackI_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Inicio inicio = new Inicio();
+            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
             inicio.Show();
         }
 
@@ -39,8 +51,9 @@ namespace Taken
         }
         public void btnEntrar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("is "+ userR[1],"and "+passwordR[1]); 
             //Validar Texto
-
+            
             if (textUser.Text == "")
             {
                 error1.SetError(textUser, "You must enter a user.");
@@ -58,14 +71,19 @@ namespace Taken
             error1.SetError(textPass, "");
 
             //Validar usuario y contraseña
-            if (User.userR == textUser.Text && User.passwdR == textPass.Text)
+            for (int i = 1; i < 5; i++)
             {
-                User.R = true;
-                this.Hide();
-                Difficulty difficulty = new Difficulty();
-                difficulty.Show();
+                if (userR[i] == textUser.Text && passwordR[i] == textPass.Text)
+                {
+                    User.R = true;
+                    log = true;
+                    string userL = userR[i];
+                    this.Hide();
+                    Difficulty difficulty = new Difficulty(userR,passwordR,userL,aux,score,1);
+                    difficulty.Show();
+                }
             }
-            else
+            if(log != true)
             {
                 MessageBox.Show("Contraseña incorrecta");
             }
