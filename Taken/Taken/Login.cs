@@ -14,6 +14,7 @@ namespace Taken
     {
         int aux = 1;
         bool log = false;
+        bool visible = false;
         int score;
         string[] userR = new string[5];
         string[] passwordR = new string[5];
@@ -51,7 +52,6 @@ namespace Taken
         }
         public void btnEntrar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("is "+ userR[1],"and "+passwordR[1]); 
             //Validar Texto
             
             if (textUser.Text == "")
@@ -75,11 +75,11 @@ namespace Taken
             {
                 if (userR[i] == textUser.Text && passwordR[i] == textPass.Text)
                 {
-                    User.R = true;
+                    visible = true;
                     log = true;
                     string userL = userR[i];
                     this.Hide();
-                    Difficulty difficulty = new Difficulty(userR,passwordR,userL,aux,score,1);
+                    Difficulty difficulty = new Difficulty(userR,passwordR,userL,aux,score,1,visible);
                     difficulty.Show();
                 }
             }

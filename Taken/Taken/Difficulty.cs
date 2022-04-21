@@ -15,9 +15,10 @@ namespace Taken
         int aux = 1;
         int score;
         string userL = "";
+        bool visible = false;
         string[] userR = new string[5];
         string[] passwordR = new string[5];
-        public Difficulty(string[] user, string[] password,string _userL, int aux2,int _score = 0, int bandera = 0)
+        public Difficulty(string[] user, string[] password,string _userL, int aux2,int _score = 0, int bandera = 0,bool _visible = false)
         {
             if (bandera == 1)
             {
@@ -26,6 +27,7 @@ namespace Taken
                 this.aux = aux2;
                 this.userL = _userL;
                 this.score = _score;
+                this.visible = _visible;
             }
             
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace Taken
         private void btnHard_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_HARD t_HARD = new T_HARD(userR,passwordR,userL,aux, score,1);
+            T_HARD t_HARD = new T_HARD(userR,passwordR,userL,aux, score,1,visible);
             t_HARD.llenar();
             t_HARD.Show();
         }
@@ -46,7 +48,7 @@ namespace Taken
         private void btnModerate_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_MODERATE t_MODERATE = new T_MODERATE(userR, passwordR, userL, aux, score, 1);
+            T_MODERATE t_MODERATE = new T_MODERATE(userR, passwordR, userL, aux, score, 1,visible);
             t_MODERATE.llenar();
             t_MODERATE.Show();
         }
@@ -58,7 +60,7 @@ namespace Taken
         private void btnEASY_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_ESAY t_ESAY = new T_ESAY(userR, passwordR,userL, aux, score, 1);
+            T_ESAY t_ESAY = new T_ESAY(userR, passwordR,userL, aux, score, 1,visible);
             t_ESAY.llenar();
             t_ESAY.Show();
         }
@@ -91,7 +93,7 @@ namespace Taken
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            if (User.R == true)
+            if (visible == true)
             {
                 labelName.Visible = true;
                 labelName.Text = "User: " + userL;

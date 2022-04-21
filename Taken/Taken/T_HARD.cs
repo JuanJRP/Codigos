@@ -18,6 +18,7 @@ namespace Taken
         string[] passwordR = new string[5];
         int num, count, score;
         int[] vec = new int[24];
+        bool visible = false;
         static bool Repe(int num, int[] vect)
         {
             for (int i = 0; i < 24; i++)
@@ -74,7 +75,7 @@ namespace Taken
             btn24.Text = Convert.ToString(vec[23]);
             btn25.Text = "";
         }
-        public T_HARD(string[] user, string[] password, string _userL, int aux2, int _score, int bandera = 0)
+        public T_HARD(string[] user, string[] password, string _userL, int aux2, int _score, int bandera = 0, bool _visible = false)
         {
             if (bandera == 1)
             {
@@ -83,6 +84,7 @@ namespace Taken
                 this.aux = aux2;
                 this.userL = _userL;
                 this.score = _score;
+                this.visible = _visible;
             }
 
             InitializeComponent();
@@ -121,7 +123,7 @@ namespace Taken
         private void btnback_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1,visible);
             difficulty.Show();
         }
 
@@ -755,7 +757,7 @@ namespace Taken
         private void btn1back_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux,score, 1);
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux,score, 1,visible);
             difficulty.Show();
         }
     }

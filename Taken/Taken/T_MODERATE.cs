@@ -18,6 +18,7 @@ namespace Taken
         string[] passwordR = new string[5];
         int num, count, score;
         int[] vec = new int[15];
+        bool visible = false;
         static bool Repe(int num, int[] vect)
         {
             for (int i = 0; i < 15; i++)
@@ -65,7 +66,7 @@ namespace Taken
             btn15.Text = Convert.ToString(vec[14]);
             btn16.Text = "";
         }
-        public T_MODERATE(string[] user, string[] password, string _userL, int aux2,int _score, int bandera = 0)
+        public T_MODERATE(string[] user, string[] password, string _userL, int aux2,int _score, int bandera = 0, bool _visible = false)
         {
             if (bandera == 1)
             {
@@ -74,6 +75,7 @@ namespace Taken
                 this.aux = aux2;
                 this.userL = _userL;
                 this.score = _score;
+                this.visible = _visible;
             }
 
             InitializeComponent();
@@ -104,7 +106,7 @@ namespace Taken
         private void btnback_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1,visible);
             difficulty.Show();
         }
         private void button1_Click(object sender, EventArgs e)
@@ -477,7 +479,7 @@ namespace Taken
         private void btn1back_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1);
+            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1,visible);
             difficulty.Show();
         }
 
