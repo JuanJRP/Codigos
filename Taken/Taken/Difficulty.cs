@@ -16,8 +16,8 @@ namespace Taken
         int score;
         string userL = "";
         bool visible = false;
-        string[] userR = new string[5];
-        string[] passwordR = new string[5];
+        string[] userR = new string[6];
+        string[] passwordR = new string[6];
         public Difficulty(string[] user, string[] password,string _userL, int aux2,int _score = 0, int bandera = 0,bool _visible = false)
         {
             if (bandera == 1)

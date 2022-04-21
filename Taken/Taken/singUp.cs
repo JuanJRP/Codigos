@@ -12,10 +12,10 @@ namespace Taken
 {
     public partial class singUp : Form
     {
-        int aux = 1;
+        int aux = 0;
         int score;
-        string[] userR = new string[5];
-        string[] passwordR = new string[5];
+        string[] userR = new string[6];
+        string[] passwordR = new string[6];
         public singUp(string[] user, string[] password, int aux2, int _score = 0, int bandera = 0)
         {
             if (bandera == 1)
@@ -105,13 +105,20 @@ namespace Taken
             }
             error1.SetError(textPassRR, "");
 
-
-            userR[aux] = textUserR.Text;
-            passwordR[aux] = textPassRR.Text;
-            aux += 1;
-            this.Hide();
-            Login login = new Login(userR,passwordR,aux,score,1);
-            login.Show();
+            if(aux <= 4)
+            {
+                userR[aux] = textUserR.Text;
+                passwordR[aux] = textPassRR.Text;
+                aux += 1;
+                this.Hide();
+                Login login = new Login(userR, passwordR, aux, score, 1);
+                login.Show();
+            }
+            else
+            {
+                MessageBox.Show("Limite de usuarios registrados superado");
+            }
+            
         }
 
         private void textPassR_TextChanged(object sender, EventArgs e)

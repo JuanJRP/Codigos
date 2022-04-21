@@ -12,12 +12,12 @@ namespace Taken
 {
     public partial class Login : Form
     {
-        int aux = 1;
+        int aux = 0;
         bool log = false;
         bool visible = false;
         int score;
-        string[] userR = new string[5];
-        string[] passwordR = new string[5];
+        string[] userR = new string[6];
+        string[] passwordR = new string[6];
         public Login(string[] user, string[] password,int aux2,int _score, int bandera = 0)
         {
             if (bandera == 1)
@@ -71,7 +71,7 @@ namespace Taken
             error1.SetError(textPass, "");
 
             //Validar usuario y contraseña
-            for (int i = 1; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 if (userR[i] == textUser.Text && passwordR[i] == textPass.Text)
                 {
@@ -85,7 +85,7 @@ namespace Taken
             }
             if(log != true)
             {
-                MessageBox.Show("Contraseña incorrecta");
+                MessageBox.Show("usuario o contraseña incorrecta");
             }
         }
 

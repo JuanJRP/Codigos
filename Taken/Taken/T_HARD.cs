@@ -14,8 +14,8 @@ namespace Taken
     {
         int aux = 1;
         string userL = "";
-        string[] userR = new string[5];
-        string[] passwordR = new string[5];
+        string[] userR = new string[6];
+        string[] passwordR = new string[6];
         int num, count, score;
         int[] vec = new int[24];
         bool visible = false;
