@@ -35,7 +35,7 @@ namespace Taken
         private void btnLogin_Click(object sender, EventArgs e)
         {
             this.Hide();
-            singUp singup = new singUp(userR, passwordR, aux, 1);
+            singUp singup = new singUp(userR, passwordR, aux, score,1);
             singup.btnplay_Click(sender, e);
         }
 

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Taken</id>
+    <version>1.0.0</version>
+    <authors>Taken</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/taken.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\jojan\source\repos\Taken\Taken\bin\Debug\net6.0-windows\Taken.runtimeconfig.json" target="lib\net6.0-windows7.0\Taken.runtimeconfig.json" />
+    <file src="C:\Users\jojan\source\repos\Taken\Taken\bin\Debug\net6.0-windows\Taken.dll" target="lib\net6.0-windows7.0\Taken.dll" />
+    <file src="C:\Users\jojan\source\repos\Taken\Taken\taken.ico" target="content\taken.ico" />
+    <file src="C:\Users\jojan\source\repos\Taken\Taken\taken.ico" target="contentFiles\any\net6.0-windows7.0\taken.ico" />
+  </files>
+</package>
