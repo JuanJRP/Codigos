@@ -17,7 +17,8 @@ namespace Base_de_datos
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        int num;
+        string tabla;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -88,6 +89,17 @@ namespace Base_de_datos
             cn.Open();
             DataTable dt = new DataTable();
             string llenar = "delete  from computadores where documentos = '10014701'";
+            MySqlCommand cmd = new MySqlCommand(llenar, cn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
+        public DataTable llenar_Busqueda(string tabla,string tipo, string Busqueda)
+        {
+            cn.Open();
+            DataTable dt = new DataTable();
+            string llenar = $"SELECT * FROM {tabla} WHERE {tipo} = '{Busqueda}'";
             MySqlCommand cmd = new MySqlCommand(llenar, cn);
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             da.Fill(dt);
@@ -333,6 +345,17 @@ namespace Base_de_datos
             TextBox3.Visible = true;
             TextBox4.Visible = false;
             TextBox5.Visible = false;
+            btnbus.Visible = true;
+            TextBox7.Visible = true;
+            CheckBox1.Visible = true;
+            CheckBox1.Text = "Documento";
+            CheckBox2.Visible = true;
+            CheckBox2.Text = "Nombre";
+            CheckBox3.Visible = true;
+            CheckBox3.Text = "Barrio";
+            CheckBox4.Visible = false;
+            CheckBox5.Visible = false;
+            TextBox7.Text = "";
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
@@ -349,6 +372,19 @@ namespace Base_de_datos
             TextBox3.Visible = true;
             TextBox4.Visible = true;
             TextBox5.Visible = true;
+            btnbus.Visible = true;
+            TextBox7.Visible = true;
+            CheckBox1.Visible = true;
+            CheckBox1.Text = "Codigo";
+            CheckBox2.Visible = true;
+            CheckBox2.Text = "Titulo";
+            CheckBox3.Visible = true;
+            CheckBox3.Text = "Autor";
+            CheckBox4.Visible = true;
+            CheckBox4.Text = "Genero";
+            CheckBox5.Visible = true;
+            CheckBox5.Text = "Tipo";
+            TextBox7.Text = "";
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
@@ -366,6 +402,18 @@ namespace Base_de_datos
             TextBox3.Visible = true;
             TextBox4.Visible = true;
             TextBox5.Visible = false;
+            btnbus.Visible = true;
+            TextBox7.Visible = true;
+            CheckBox1.Visible = true;
+            CheckBox1.Text = "Documento";
+            CheckBox2.Visible = true;
+            CheckBox2.Text = "Codigo";
+            CheckBox3.Visible = true;
+            CheckBox3.Text = "Fecha Prestamo";
+            CheckBox4.Visible = true;
+            CheckBox4.Text = "Fecha devolucion";
+            CheckBox5.Visible = false;
+            TextBox7.Text = "";
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
@@ -383,6 +431,18 @@ namespace Base_de_datos
             TextBox3.Visible = true;
             TextBox4.Visible = true;
             TextBox5.Visible = false;
+            btnbus.Visible = true;
+            TextBox7.Visible = true;
+            CheckBox1.Visible = true;
+            CheckBox1.Text = "Documentos";
+            CheckBox2.Visible = true;
+            CheckBox2.Text = "Nombres";
+            CheckBox3.Visible = true;
+            CheckBox3.Text = "Hora De Inicio";
+            CheckBox4.Visible = true;
+            CheckBox4.Text = "Hora De Finalizacion";
+            CheckBox5.Visible = false;
+            TextBox7.Text = "";
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
@@ -400,12 +460,188 @@ namespace Base_de_datos
             TextBox3.Visible = true;
             TextBox4.Visible = false;
             TextBox5.Visible = false;
+            btnbus.Visible = true;
+            TextBox7.Visible = true;
+            CheckBox1.Visible = true;
+            CheckBox1.Text = "Documento";
+            CheckBox2.Visible = true;
+            CheckBox2.Text = "Nombre";
+            CheckBox3.Visible = true;
+            CheckBox3.Text = "Barrio";
+            CheckBox4.Visible = false;
+            CheckBox5.Visible = false;
+            TextBox7.Text = "";
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
             TextBox4.Text = "";
             TextBox5.Text = "";
             TextBox6.Text = Convert.ToString(5);
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+            if (TextBox6.Text == "1")
+            {
+                if (CheckBox1.Checked == true)
+                {
+                    tabla = CheckBox1.Text;
+                }
+                else if(CheckBox2.Checked == true)
+                {
+                    tabla = CheckBox2.Text;
+                }
+                else if(CheckBox3.Checked == true)
+                {
+                    tabla = CheckBox3.Text;
+                }
+                else 
+                {
+                    tabla = "";
+                }
+                if (CheckBox1.Checked == false && CheckBox2.Checked == false && CheckBox3.Checked == false)
+                {
+
+                }
+                else
+                {
+                    GridView1.DataSource = llenar_Busqueda("empleados", tabla, TextBox7.Text);
+                    GridView1.DataBind();
+                }
+            }
+            if (TextBox6.Text == "2")
+            {
+                if (CheckBox1.Checked == true)
+                {
+                    tabla = CheckBox1.Text;
+                }
+                else if (CheckBox2.Checked == true)
+                {
+                    tabla = CheckBox2.Text;
+                }
+                else if (CheckBox3.Checked == true)
+                {
+                    tabla = CheckBox3.Text;
+                }
+                else if (CheckBox4.Checked == true)
+                {
+                    tabla = CheckBox4.Text;
+                }
+                else if (CheckBox5.Checked == true)
+                {
+                    tabla = CheckBox5.Text;
+                }
+                else
+                {
+                    tabla = "";
+                }
+                if (CheckBox1.Checked == false && CheckBox2.Checked == false && CheckBox3.Checked == false && CheckBox4.Checked == false && CheckBox5.Checked == false)
+                {
+
+                }
+                else
+                {
+                    GridView1.DataSource = llenar_Busqueda("libros", tabla, TextBox7.Text);
+                    GridView1.DataBind();
+                }
+            }
+            if (TextBox6.Text == "3")
+            {
+                if (CheckBox1.Checked == true)
+                {
+                    tabla = CheckBox1.Text;
+                }
+                else if (CheckBox2.Checked == true)
+                {
+                    tabla = CheckBox2.Text;
+                }
+                else if (CheckBox3.Checked == true)
+                {
+                    tabla = "date(fechaprestamo)";
+                }
+                else if (CheckBox4.Checked == true)
+                {
+                    tabla = "date(fechadevolucion)";
+                }
+                else
+                {
+                    tabla = "";
+                }
+                if (CheckBox1.Checked == false && CheckBox2.Checked == false && CheckBox3.Checked == false && CheckBox4.Checked == false)
+                {
+
+                }
+                else
+                {
+                    GridView1.DataSource = llenar_Busqueda("prestamos", tabla, TextBox7.Text);
+                    GridView1.DataBind();
+                } 
+            }
+            if (TextBox6.Text == "4")
+            {
+                if (CheckBox1.Checked == true)
+                {
+                    tabla = CheckBox1.Text;
+                }
+                else if (CheckBox2.Checked == true)
+                {
+                    tabla = CheckBox2.Text;
+                }
+                else if (CheckBox3.Checked == true)
+                {
+                    tabla = "date(hora_de_inicio)";
+                }
+                else if (CheckBox4.Checked == true)
+                {
+                    tabla = "date(hora_de_finalizacion)";
+                }
+                else
+                {
+                    tabla = "";
+                }
+                if (CheckBox1.Checked == false && CheckBox2.Checked == false && CheckBox3.Checked == false && CheckBox4.Checked == false)
+                {
+
+                }
+                else
+                {
+                    GridView1.DataSource = llenar_Busqueda("computadores", tabla, TextBox7.Text);
+                    GridView1.DataBind();
+                }
+            }
+            if (TextBox6.Text == "5")
+            {
+                if (CheckBox1.Checked == true)
+                {
+                    tabla = CheckBox1.Text;
+                }
+                else if (CheckBox2.Checked == true)
+                {
+                    tabla = CheckBox2.Text;
+                }
+                else if (CheckBox3.Checked == true)
+                {
+                    tabla = CheckBox3.Text;
+                }
+                else
+                {
+                    tabla = "";
+                }
+                if (CheckBox1.Checked == false && CheckBox2.Checked == false && CheckBox3.Checked == false && CheckBox4.Checked == false)
+                {
+
+                }
+                else
+                {
+                    GridView1.DataSource = llenar_Busqueda("socios", tabla, TextBox7.Text);
+                    GridView1.DataBind();
+                }
+            }
+        }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
         //----------------------------------------------------------------------------------------------------------------------------
     }

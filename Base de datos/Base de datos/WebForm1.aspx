@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="background-image: url('Images/id.PNG'); height: 608px;">
+        <div style="background-image: url('Images/id.PNG'); height: 627px;">
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button4" runat="server" Text="Empleados" Width="184px" OnClick="Button4_Click" />
@@ -43,8 +43,24 @@
             <asp:Button ID="Button2" runat="server" Text="Modificar" Width="184px" OnClick="Button2_Click" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button3" runat="server" Text="Eliminar" Width="184px" OnClick="Button3_Click" />
-            &nbsp;
-            <asp:TextBox ID="TextBox6" runat="server" Visible="False"></asp:TextBox>
+            &nbsp;<asp:TextBox ID="TextBox6" runat="server" Visible="False" Width="26px"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnbus" runat="server" OnClick="Button9_Click" Text="Buscar" Visible="False" Width="182px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+            <asp:TextBox ID="TextBox7" runat="server" Visible="False" Width="178px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <asp:CheckBox ID="CheckBox1" runat="server" ForeColor="White" Text="Codigo" OnCheckedChanged="CheckBox1_CheckedChanged" Visible="False" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:CheckBox ID="CheckBox2" runat="server" ForeColor="White" Text="Codigo" Visible="False" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:CheckBox ID="CheckBox3" runat="server" ForeColor="White" Text="Codigo" Visible="False" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:CheckBox ID="CheckBox4" runat="server" ForeColor="White" Text="Codigo" Visible="False" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:CheckBox ID="CheckBox5" runat="server" ForeColor="White" Text="Codigo" Visible="False" />
             <br />
 &nbsp;<asp:GridView ID="GridView1" runat="server" BorderColor="Black" CellPadding="7" ForeColor="Black" HorizontalAlign="Center" AllowCustomPaging="True" BackColor="White">
                 <EmptyDataRowStyle Font-Bold="True" />
