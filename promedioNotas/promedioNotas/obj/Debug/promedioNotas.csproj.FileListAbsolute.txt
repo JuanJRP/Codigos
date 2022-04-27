@@ -1,0 +1,16 @@
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\bin\Debug\promedioNotas.exe.config
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\bin\Debug\promedioNotas.exe
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\bin\Debug\promedioNotas.pdb
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.AssemblyReference.cache
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.SuggestedBindingRedirects.cache
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.CoreCompileInputs.cache
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\obj\Debug\promedioNotas.exe
+C:\Users\YURANY\Desktop\tareas\tareas tercer semeste\herramientas de programacion 1\promedioNotas\promedioNotas\obj\Debug\promedioNotas.pdb
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\bin\Debug\promedioNotas.exe.config
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\bin\Debug\promedioNotas.exe
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\bin\Debug\promedioNotas.pdb
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.AssemblyReference.cache
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\obj\Debug\promedioNotas.csproj.CoreCompileInputs.cache
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\obj\Debug\promedioNotas.exe
+C:\Users\jojan\Desktop\promedioNotas\promedioNotas\obj\Debug\promedioNotas.pdb

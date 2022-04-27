@@ -1,0 +1,22 @@
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\bin\Debug\net6.0-windows\juego interactivo.exe
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\bin\Debug\net6.0-windows\juego interactivo.deps.json
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\bin\Debug\net6.0-windows\juego interactivo.runtimeconfig.json
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\bin\Debug\net6.0-windows\juego interactivo.dll
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\bin\Debug\net6.0-windows\juego interactivo.pdb
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.AssemblyInfoInputs.cache
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.AssemblyInfo.cs
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.dll
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\refint\juego interactivo.dll
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.pdb
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego interactivo.genruntimeconfig.cache
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\ref\juego interactivo.dll
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.INICIO.resources
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.MODALIDAD.resources
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.Multiple.resources
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.Properties.Resources.resources
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.Completar.resources
+C:\Users\jojan\source\repos\juego interactivo\juego interactivo\obj\Debug\net6.0-windows\juego_interactivo.Verd_Fals.resources
