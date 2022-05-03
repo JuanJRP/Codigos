@@ -5,14 +5,14 @@ namespace Taken
         int aux = 0;
         int score;
         string userL= "";
-        string[] userR = new string[6];
-        string[] passwordR = new string[6];
-        public Inicio(string[] user, string[] password, int aux2,int _score = 0, int bandera = 0)
+        List<string> userList = new List<string>();
+        List<string> passwordList = new List<string>();
+        public Inicio(List<string> user, List<string> passwd, int aux2,int _score = 0, int bandera = 0)
         {
             if (bandera == 1)
             {
-                this.userR = user;
-                this.passwordR = password;
+                this.userList = user;
+                this.passwordList = passwd;
                 this.aux = aux2;
                 this.score = _score;
             }
@@ -28,21 +28,21 @@ namespace Taken
         private void btnSing_Click(object sender, EventArgs e)
         {
             this.Hide();
-            singUp singup = new singUp(userR, passwordR, aux,score, 1);
+            singUp singup = new singUp(userList, passwordList, aux,score, 1);
             singup.Show();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             this.Hide();
-            singUp singup = new singUp(userR, passwordR, aux, score,1);
+            singUp singup = new singUp(userList, passwordList, aux, score,1);
             singup.btnplay_Click(sender, e);
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Difficulty difficulty = new Difficulty(userR,passwordR,userL,aux,score,1);
+            Difficulty difficulty = new Difficulty(userList,passwordList,userL,aux,score,1);
             difficulty.Show();
         }
 

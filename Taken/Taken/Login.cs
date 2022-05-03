@@ -12,18 +12,18 @@ namespace Taken
 {
     public partial class Login : Form
     {
+        List<string> userList = new List<string>();
+        List<string> passwordList = new List<string>();
         int aux = 0;
         bool log = false;
         bool visible = false;
         int score;
-        string[] userR = new string[6];
-        string[] passwordR = new string[6];
-        public Login(string[] user, string[] password,int aux2,int _score, int bandera = 0)
+        public Login(List<string> user, List<string> passwd, int aux2,int _score , int bandera = 0)
         {
             if (bandera == 1)
             {
-                this.userR = user;
-                this.passwordR = password;
+                this.userList = user;
+                this.passwordList = passwd;
                 this.aux = aux2;
                 this.score = _score;
             }
@@ -38,7 +38,7 @@ namespace Taken
         private void btnBackI_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
+            Inicio inicio = new Inicio(userList,passwordList,aux,score,1);
             inicio.Show();
         }
 
@@ -70,20 +70,21 @@ namespace Taken
             }
             error1.SetError(textPass, "");
 
+            
             //Validar usuario y contraseña
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < userList.Count; i++)
             {
-                if (userR[i] == textUser.Text && passwordR[i] == textPass.Text)
+                if (userList[i] == textUser.Text && passwordList[i] == textPass.Text)
                 {
                     visible = true;
                     log = true;
-                    string userL = userR[i];
+                    string userL = userList[i];
                     this.Hide();
-                    Difficulty difficulty = new Difficulty(userR,passwordR,userL,aux,score,1,visible);
+                    Difficulty difficulty = new Difficulty(userList,passwordList,userL,aux,score,1,visible);
                     difficulty.Show();
                 }
             }
-            if(log != true)
+            if (log != true)
             {
                 MessageBox.Show("usuario o contraseña incorrecta");
             }

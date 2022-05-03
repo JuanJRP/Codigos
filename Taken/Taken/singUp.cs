@@ -12,16 +12,16 @@ namespace Taken
 {
     public partial class singUp : Form
     {
+        List<string> userList = new List<string>();
+        List<string> passwordList = new List<string>();
         int aux = 0;
         int score;
-        string[] userR = new string[6];
-        string[] passwordR = new string[6];
-        public singUp(string[] user, string[] password, int aux2, int _score = 0, int bandera = 0)
+        public singUp(List<string> user, List<string> passwd, int aux2, int _score = 0, int bandera = 0)
         {
             if (bandera == 1)
             {
-                this.userR = user;
-                this.passwordR = password;
+                this.userList = user;
+                this.passwordList = passwd;
                 this.aux = aux2;
                 this.score = _score;
             }
@@ -52,7 +52,7 @@ namespace Taken
         private void btnBackI_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
+            Inicio inicio = new Inicio(userList,passwordList,aux,score,1);
             inicio.Show();
         }
 
@@ -104,21 +104,12 @@ namespace Taken
                 return;
             }
             error1.SetError(textPassRR, "");
-
-            if(aux <= 4)
-            {
-                userR[aux] = textUserR.Text;
-                passwordR[aux] = textPassRR.Text;
-                aux += 1;
-                this.Hide();
-                Login login = new Login(userR, passwordR, aux, score, 1);
-                login.Show();
-            }
-            else
-            {
-                MessageBox.Show("Limite de usuarios registrados superado");
-            }
-            
+            userList.Add(textUserR.Text);
+            passwordList.Add(textPassRR.Text);
+            aux += 1;
+            this.Hide();
+            Login login = new Login(userList, passwordList, aux, score, 1);
+            login.Show();
         }
 
         private void textPassR_TextChanged(object sender, EventArgs e)
@@ -136,10 +127,8 @@ namespace Taken
 
         public void btnplay_Click(object sender, EventArgs e)
         {
-            userR[aux] = textUserR.Text;
-            passwordR[aux] = textPassRR.Text;
             this.Hide();
-            Login login = new Login(userR, passwordR,aux,score,1);
+            Login login = new Login(userList, passwordList,aux,score,1);
             login.Show();
         }
     }

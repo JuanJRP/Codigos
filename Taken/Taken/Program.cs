@@ -9,12 +9,12 @@ namespace Taken
         static void Main()
         {
             int aux = 0;
-            string[] userR = new string[5];
-            string[] passwordR = new string[5];
+            List<string> userList = new List<string>();
+            List<string> passwordList = new List<string>();
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Inicio(userR,passwordR,aux));
+            Application.Run(new Inicio(userList,passwordList,aux));
         }
     }
 }

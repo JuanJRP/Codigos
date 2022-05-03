@@ -14,8 +14,8 @@ namespace Taken
     {
         int aux = 1;
         string userL = "";
-        string[] userR = new string[6];
-        string[] passwordR = new string[6];
+        List<string> userList = new List<string>();
+        List<string> passwordList = new List<string>();
         int num, count, score;
         int[] vec = new int[15];
         bool visible = false;
@@ -66,12 +66,12 @@ namespace Taken
             btn15.Text = Convert.ToString(vec[14]);
             btn16.Text = "";
         }
-        public T_MODERATE(string[] user, string[] password, string _userL, int aux2,int _score, int bandera = 0, bool _visible = false)
+        public T_MODERATE(List<string> user, List<string> passwd, string _userL, int aux2,int _score, int bandera = 0, bool _visible = false)
         {
             if (bandera == 1)
             {
-                this.userR = user;
-                this.passwordR = password;
+                this.userList = user;
+                this.passwordList = passwd;
                 this.aux = aux2;
                 this.userL = _userL;
                 this.score = _score;
@@ -106,7 +106,7 @@ namespace Taken
         private void btnback_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1,visible);
+            Difficulty difficulty = new Difficulty(userList, passwordList, userL, aux, score, 1,visible);
             difficulty.Show();
         }
         private void button1_Click(object sender, EventArgs e)
@@ -479,7 +479,7 @@ namespace Taken
         private void btn1back_Click(object sender, EventArgs e)
         {
             this.Close();
-            Difficulty difficulty = new Difficulty(userR, passwordR, userL, aux, score, 1,visible);
+            Difficulty difficulty = new Difficulty(userList, passwordList, userL, aux, score, 1,visible);
             difficulty.Show();
         }
 

@@ -16,14 +16,14 @@ namespace Taken
         int score;
         string userL = "";
         bool visible = false;
-        string[] userR = new string[6];
-        string[] passwordR = new string[6];
-        public Difficulty(string[] user, string[] password,string _userL, int aux2,int _score = 0, int bandera = 0,bool _visible = false)
+        List<string> userList = new List<string>();
+        List<string> passwordList = new List<string>();
+        public Difficulty(List<string> user, List<string> passwd, string _userL, int aux2,int _score = 0, int bandera = 0,bool _visible = false)
         {
             if (bandera == 1)
             {
-                this.userR = user;
-                this.passwordR = password;
+                this.userList = user;
+                this.passwordList = passwd;
                 this.aux = aux2;
                 this.userL = _userL;
                 this.score = _score;
@@ -36,7 +36,7 @@ namespace Taken
         private void btnHard_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_HARD t_HARD = new T_HARD(userR,passwordR,userL,aux, score,1,visible);
+            T_HARD t_HARD = new T_HARD(userList,passwordList,userL,aux, score,1,visible);
             t_HARD.llenar();
             t_HARD.Show();
         }
@@ -48,7 +48,7 @@ namespace Taken
         private void btnModerate_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_MODERATE t_MODERATE = new T_MODERATE(userR, passwordR, userL, aux, score, 1,visible);
+            T_MODERATE t_MODERATE = new T_MODERATE(userList, passwordList, userL, aux, score, 1,visible);
             t_MODERATE.llenar();
             t_MODERATE.Show();
         }
@@ -60,7 +60,7 @@ namespace Taken
         private void btnEASY_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T_ESAY t_ESAY = new T_ESAY(userR, passwordR,userL, aux, score, 1,visible);
+            T_ESAY t_ESAY = new T_ESAY(userList, passwordList,userL, aux, score, 1,visible);
             t_ESAY.llenar();
             t_ESAY.Show();
         }
@@ -72,7 +72,7 @@ namespace Taken
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
-            Inicio inicio = new Inicio(userR,passwordR,aux,score,1);
+            Inicio inicio = new Inicio(userList,passwordList,aux,score,1);
             inicio.Show();
         }
 
