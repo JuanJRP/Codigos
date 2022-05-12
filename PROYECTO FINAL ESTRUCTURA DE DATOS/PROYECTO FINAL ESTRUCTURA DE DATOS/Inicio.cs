@@ -2,25 +2,59 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
 {
     public partial class Inicio : Form
     {
-        public Inicio()
+        //Listas-------------------------------------------------------
+        List<string> usuarios_Administradores = new List<string>();
+        List<string> Contraseñas_Administradores = new List<string>();
+        List<string> usuarios_Profesores = new List<string>();
+        List<string> Contraseñas_Profesores = new List<string>();
+        List<string> usuarios_Estudiantes = new List<string>();
+        List<string> Contraseñas_Estudiantes = new List<string>();
+        //-------------------------------------------------------------
+        public Inicio(List<string> u_Administradores, List<string> C_Administradores,
+            List<string> u_Profesores, List<string> C_Profesores,
+            List<string> u_Estudiantes, List<string> C_Estudiantes)
         {
+            this.usuarios_Administradores = u_Administradores;
+            this.Contraseñas_Administradores = C_Administradores;
+            this.usuarios_Profesores = u_Profesores;
+            this.Contraseñas_Profesores = C_Profesores;
+            this.usuarios_Estudiantes = u_Estudiantes;
+            this.Contraseñas_Estudiantes = C_Estudiantes;
             InitializeComponent();
         }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Matricularse matricularse = new Matricularse();
+            Matricularse matricularse = new Matricularse(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores,
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
             matricularse.Show();
         }
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login login = new Login();
+            Login login = new Login(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores, 
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
             login.Show();
         }
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Inicio_FormClosing(object sender, FormClosingEventArgs e)
+        {
+        }
+
+        private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

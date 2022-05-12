@@ -12,8 +12,25 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
 {
     public partial class Admin : Form
     {
-        public Admin()
+        //Listas-------------------------------------------------------
+        List<string> usuarios_Administradores = new List<string>();
+        List<string> Contraseñas_Administradores = new List<string>();
+        List<string> usuarios_Profesores = new List<string>();
+        List<string> Contraseñas_Profesores = new List<string>();
+        List<string> usuarios_Estudiantes = new List<string>();
+        List<string> Contraseñas_Estudiantes = new List<string>();
+        //-------------------------------------------------------------
+        public Admin(List<string> u_Administradores, List<string> C_Administradores,
+            List<string> u_Profesores, List<string> C_Profesores,
+            List<string> u_Estudiantes, List<string> C_Estudiantes)
         {
+            this.usuarios_Administradores = u_Administradores;
+            this.Contraseñas_Administradores = C_Administradores;
+            this.usuarios_Profesores = u_Profesores;
+            this.Contraseñas_Profesores = C_Profesores;
+            this.usuarios_Estudiantes = u_Estudiantes;
+            this.Contraseñas_Estudiantes = C_Estudiantes;
+
             InitializeComponent();
         }
 
@@ -23,6 +40,26 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Admin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
         {
             
         }

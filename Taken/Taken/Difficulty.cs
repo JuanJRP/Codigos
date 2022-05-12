@@ -93,6 +93,16 @@ namespace Taken
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
+            
+        }
+
+        private void labelScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Difficulty_Load(object sender, EventArgs e)
+        {
             if (visible == true)
             {
                 labelName.Visible = true;
@@ -100,11 +110,6 @@ namespace Taken
                 labelScore.Visible = true;
                 labelScore.Text = "Score: " + score;
             }
-        }
-
-        private void labelScore_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

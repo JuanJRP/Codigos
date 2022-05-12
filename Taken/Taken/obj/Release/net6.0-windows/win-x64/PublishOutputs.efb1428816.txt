@@ -1,2 +1,5 @@
-C:\Users\jojan\Desktop\Taken.pdb
 C:\Users\jojan\Desktop\Taken.exe
+C:\Users\jojan\Desktop\Taken.dll
+C:\Users\jojan\Desktop\Taken.deps.json
+C:\Users\jojan\Desktop\Taken.runtimeconfig.json
+C:\Users\jojan\Desktop\Taken.pdb

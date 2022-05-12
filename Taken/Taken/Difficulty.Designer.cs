@@ -180,9 +180,11 @@
             this.Controls.Add(this.btnEASY);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Difficulty";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Difficulty";
+            this.Load += new System.EventHandler(this.Difficulty_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Difficulty_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

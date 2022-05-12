@@ -59,15 +59,4 @@ C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.
 C:\Users\jojan\source\repos\Base de datos\Base de datos\obj\Debug\Base de datos.pdb
 C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\MySql.Data.dll
 C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Google.Protobuf.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\ZstdNet.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Compression.LZ4.Streams.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\BouncyCastle.Crypto.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\Ubiety.Dns.Core.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Memory.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Compression.LZ4.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\K4os.Hash.xxHash.dll
 C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\MySql.Data.xml
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Security.Permissions.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Configuration.ConfigurationManager.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Text.Encoding.CodePages.dll
-C:\Users\jojan\source\repos\Base de datos\Base de datos\bin\System.Security.Cryptography.ProtectedData.dll

@@ -13,7 +13,7 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
     public partial class Login : Form
     {
         //Variables----------------------------------------------------
-        bool validar = false;
+        bool validar = false;        
         //-------------------------------------------------------------
 
         //Listas-------------------------------------------------------
@@ -24,16 +24,24 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
         List<string> usuarios_Estudiantes = new List<string>();
         List<string> Contraseñas_Estudiantes = new List<string>();
         //-------------------------------------------------------------
-        public Login()
+        public Login(List<string> u_Administradores, List<string> C_Administradores, 
+            List<string> u_Profesores, List<string> C_Profesores, 
+            List<string> u_Estudiantes, List<string> C_Estudiantes)
         {
-            usuarios_Administradores.Add("admin");
-            Contraseñas_Administradores.Add("admin");
+            this.usuarios_Administradores = u_Administradores;
+            this.Contraseñas_Administradores = C_Administradores;
+            this.usuarios_Profesores = u_Profesores;
+            this.Contraseñas_Profesores = C_Profesores;
+            this.usuarios_Estudiantes = u_Estudiantes;
+            this.Contraseñas_Estudiantes = C_Estudiantes;
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Inicio inicio = new Inicio();
+            Inicio inicio = new Inicio(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores,
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
             inicio.Show();
             this.Close();
             
@@ -41,7 +49,13 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text != "" && textBox2.Text != "")
+            usuarios_Administradores.Add("admin");
+            Contraseñas_Administradores.Add("admin");
+            usuarios_Profesores.Add("leon");
+            Contraseñas_Profesores.Add("leon");
+            usuarios_Estudiantes.Add("yurany");
+            Contraseñas_Estudiantes.Add("yurany");
+            if (textBox1.Text != "" && textBox2.Text != "")
             {
                 validar = false;
                 //Validar Administradores-------------------------------------------------------------------------------
@@ -51,7 +65,9 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
                     {
                         if (textBox1.Text == usuarios_Administradores[i] && textBox2.Text == Contraseñas_Administradores[i])
                         {
-                            Admin admin = new Admin();
+                            Admin admin = new Admin(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores,
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
                             admin.Show();
                             this.Close();
                             validar = true;
@@ -67,7 +83,11 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
                     {
                         if (textBox1.Text == usuarios_Profesores[i] && textBox2.Text == Contraseñas_Profesores[i])
                         {
-                            MessageBox.Show("profesor");
+                            Profesores profesores = new Profesores(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores,
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
+                            profesores.Show();
+                            this.Close();
                             validar = true;
                         }
                     }
@@ -81,7 +101,11 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
                     {
                         if (textBox1.Text == usuarios_Estudiantes[i] && textBox2.Text == Contraseñas_Estudiantes[i])
                         {
-                            MessageBox.Show("estudiante");
+                            Estudiantes estudiantes = new Estudiantes(usuarios_Administradores, Contraseñas_Administradores,
+                usuarios_Profesores, Contraseñas_Profesores,
+                usuarios_Estudiantes, Contraseñas_Estudiantes);
+                            estudiantes.Show();
+                            this.Close();
                             validar = true;
                         }
                     }
@@ -89,6 +113,21 @@ namespace PROYECTO_FINAL_ESTRUCTURA_DE_DATOS
                 //------------------------------------------------------------------------------------------------------
                 if (validar != true) { MessageBox.Show("Usuario o contraseña incorrectos."); }
             }
+        }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
