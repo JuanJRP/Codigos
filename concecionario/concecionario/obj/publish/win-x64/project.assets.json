@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jojan\\Desktop\\concecionario\\concecionario\\concecionario.csproj",
+      "projectUniqueName": "C:\\Users\\jojan\\source\\repos\\concecionario\\concecionario\\concecionario.csproj",
       "projectName": "concecionario",
-      "projectPath": "C:\\Users\\jojan\\Desktop\\concecionario\\concecionario\\concecionario.csproj",
+      "projectPath": "C:\\Users\\jojan\\source\\repos\\concecionario\\concecionario\\concecionario.csproj",
       "packagesPath": "C:\\Users\\jojan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jojan\\Desktop\\concecionario\\concecionario\\obj\\publish\\win-x64\\",
+      "outputPath": "C:\\Users\\jojan\\source\\repos\\concecionario\\concecionario\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -3,7 +3,7 @@ namespace concecionario
     public partial class Form1 : Form
     {
         int n, i=0,m = 2, validar = 0, btn = 0;
-        int mod1 = 0,mod2 = 0,mod3 = 0,mod4 = 0;
+        int mod1 = 0,mod2 = 0,mod3 = 0,mod4 = 0,sal;
         string path = @"c:\Windows\temp\Imprimir.txt";
         string[,]nm;
         public Form1()
@@ -50,9 +50,9 @@ namespace concecionario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if (textBox1.Text == "" || Convert.ToInt32(textBox1.Text) <= 0)
             {
-                MessageBox.Show("Ingrese la cantidad de trabajadores");
+                MessageBox.Show("Cantidad de trabajadores incorrecta.");
             }
             else
             {
@@ -241,6 +241,15 @@ namespace concecionario
                 impre.Show();
                 StreamWriter sw = new StreamWriter(path);
                 i = 0;
+                int auxmayor = 2000000;
+                for(int i = 0; i < n; i++)
+                {
+                    if (auxmayor < Convert.ToInt32(nm[i, 5]))
+                    {
+                        auxmayor = Convert.ToInt32(nm[i, 5]);
+                        sal = i;
+                    }
+                }
                 while (i < n)
                 {
                     {
@@ -250,6 +259,7 @@ namespace concecionario
                         i++;
                     }
                 }
+                sw.WriteLine("El  vendedor  con  mayor  salario  es  " + nm[sal, 0] + "  y  es  de: " + nm[sal, 5]);
                 sw.Close();
             }
         }
