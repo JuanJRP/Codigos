@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Colegio.exe" size="164776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Colegio.exe" size="171944">
       <assemblyIdentity name="Colegio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xOBubKpqKDF/e7g5lSe6DcUV+iBpddClgfZlfneiiz8=</dsig:DigestValue>
+        <dsig:DigestValue>0pX+ldz+bmxQYHCwQWPM4ERjPMgxd170gd8MZa8s2X8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -69,7 +69,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9Fa0BFT2xR1s1q+etXwFvub6n4e7Y6PAvLvG88MVbSE=</dsig:DigestValue>
+      <dsig:DigestValue>/Z8gCpLqOD7QV2hO8hTWdb1DB5ZFlsiEKrqKHai5El8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Database1_log.ldf" size="8388608" writeableType="applicationData">
@@ -78,7 +78,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kKb7rBPIc2iNIPmD9h9xshQROwIR5lhynXw/u70WHDI=</dsig:DigestValue>
+      <dsig:DigestValue>YG05IA/BLoW+khpiYaueTesvLCV6LQD8VHpdWFr/HSc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="logo.ico" size="32206">
