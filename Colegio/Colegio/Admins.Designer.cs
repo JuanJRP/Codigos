@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admins));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,7 +51,13 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.error1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -82,7 +89,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 23);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Asignatura";
+            this.button2.Text = "Asignaturas";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -106,7 +113,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(133, 23);
             this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
+            this.button4.Text = "Estudiantes";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -118,7 +125,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(133, 23);
             this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
+            this.button5.Text = "Padres";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -277,7 +284,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.label5.Location = new System.Drawing.Point(589, 36);
+            this.label5.Location = new System.Drawing.Point(561, 56);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 17);
             this.label5.TabIndex = 20;
@@ -286,11 +293,62 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(592, 56);
+            this.textBox5.Location = new System.Drawing.Point(564, 76);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(49, 20);
             this.textBox5.TabIndex = 19;
             this.textBox5.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
+            this.label6.Location = new System.Drawing.Point(561, 13);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Usuario";
+            this.label6.Visible = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(564, 33);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(190, 20);
+            this.textBox6.TabIndex = 21;
+            this.textBox6.Visible = false;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
+            this.button11.Location = new System.Drawing.Point(210, 47);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(207, 23);
+            this.button11.TabIndex = 23;
+            this.button11.Text = "Añadir";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Visible = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
+            this.button12.Location = new System.Drawing.Point(487, 47);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(207, 23);
+            this.button12.TabIndex = 24;
+            this.button12.Text = "Añadir";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Visible = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // error1
+            // 
+            this.error1.ContainerControl = this;
             // 
             // Admins
             // 
@@ -298,6 +356,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label1);
@@ -327,6 +389,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Admins_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,5 +418,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.ErrorProvider error1;
     }
 }

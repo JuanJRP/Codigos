@@ -74,7 +74,9 @@ namespace Colegio
                     Login(dato);
                     if (textBox1.Text == user && textBox2.Text == passwd)
                     {
-                        MessageBox.Show("yes teacher");
+                        Profesores profesores = new Profesores(textBox1.Text);
+                        profesores.Show();
+                        this.Close();
                         log = 1;
                     }
                 }
