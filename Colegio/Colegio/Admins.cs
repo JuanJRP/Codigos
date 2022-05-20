@@ -298,8 +298,6 @@ namespace Colegio
                     insertar = $"CREATE TABLE [dbo].[{textBox1.Text}_{textBox3.Text}] ([Id] INT IDENTITY(1, 1) NOT NULL, [Nombre]     VARCHAR (150) NOT NULL,); ";
                     cn.Open();
                     SqlCommand cmd2 = new SqlCommand(insertar, cn);
-                    cmd2.Parameters.AddWithValue("@Asignatura", textBox1.Text);
-                    cmd2.Parameters.AddWithValue("@Grado", textBox3.Text);
                     cmd2.ExecuteNonQuery();
                     cn.Close();
                     insertar = $"INSERT INTO {textBox1.Text}_{textBox3.Text}(Nombre)values('Valor Nota')";
@@ -308,6 +306,17 @@ namespace Colegio
                     cmd3.ExecuteNonQuery();
                     cn.Close();
                     Borrar();
+                    insertar = $"INSERT INTO VARIABLE(Nombre,Dato,Dato2) Values (@nombre,'0','0')";
+                    cn.Open();
+                    SqlCommand cmd4 = new SqlCommand(insertar, cn);
+                    cmd4.Parameters.AddWithValue("@nombre", grado);
+                    cmd4.ExecuteNonQuery();
+                    cn.Close();
+                    insertar = $"CREATE TABLE [dbo].[{grado}_Asistencia] ([Id] INT IDENTITY(1, 1) NOT NULL, [Nombre]     VARCHAR (150) NOT NULL,); ";
+                    cn.Open();
+                    SqlCommand cmd5 = new SqlCommand(insertar, cn);
+                    cmd5.ExecuteNonQuery();
+                    cn.Close();
                 }
                 else if (opcion == 2)
                 {
@@ -965,6 +974,7 @@ namespace Colegio
                 label2.Text = "Padre";
                 label3.Text = "Telefono";
                 label4.Text = "Celular";
+                button7.Text = "Añadir Datos";
                 opcion = 1;
             }
         }
@@ -1114,6 +1124,7 @@ namespace Colegio
                 label2.Text = "Padre";
                 label3.Text = "Telefono";
                 label4.Text = "Celular";
+                button7.Text = "Modificar Datos";
                 opcion = 2;
             }
         }
