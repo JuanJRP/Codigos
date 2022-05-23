@@ -86,7 +86,9 @@ namespace Colegio
                     Login(dato);
                     if (textBox1.Text == user && textBox2.Text == passwd)
                     {
-                        MessageBox.Show("yes estuden");
+                        Estudiantes estudiantes = new Estudiantes(textBox1.Text);
+                        estudiantes.Show();
+                        this.Close();
                         log = 1;
                     }
                 }

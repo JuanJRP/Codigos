@@ -50,6 +50,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -280,7 +282,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(107, 20);
             this.textBox4.TabIndex = 29;
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label5
             // 
@@ -309,6 +311,8 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.button7);
             this.groupBox3.Controls.Add(this.textBox8);
             this.groupBox3.Controls.Add(this.label6);
@@ -323,11 +327,30 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Visible = false;
             // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(182, 28);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(44, 20);
+            this.textBox9.TabIndex = 40;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
+            this.label10.Location = new System.Drawing.Point(109, 26);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(67, 20);
+            this.label10.TabIndex = 39;
+            this.label10.Text = "Clase N°";
+            // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button7.Location = new System.Drawing.Point(279, 26);
+            this.button7.Location = new System.Drawing.Point(399, 26);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(98, 25);
             this.button7.TabIndex = 38;
@@ -337,7 +360,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(10, 44);
+            this.textBox8.Location = new System.Drawing.Point(12, 40);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(70, 20);
             this.textBox8.TabIndex = 37;
@@ -349,7 +372,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.label6.Location = new System.Drawing.Point(177, 16);
+            this.label6.Location = new System.Drawing.Point(299, 15);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 20);
             this.label6.TabIndex = 36;
@@ -359,23 +382,25 @@
             // 
             this.button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button8.Location = new System.Drawing.Point(208, 39);
+            this.button8.Location = new System.Drawing.Point(330, 38);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(37, 23);
             this.button8.TabIndex = 35;
             this.button8.Text = "No";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button9.Location = new System.Drawing.Point(165, 39);
+            this.button9.Location = new System.Drawing.Point(287, 38);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(37, 23);
             this.button9.TabIndex = 34;
             this.button9.Text = "Si";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label8
             // 
@@ -449,9 +474,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Profesores";
@@ -506,5 +531,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label10;
     }
 }

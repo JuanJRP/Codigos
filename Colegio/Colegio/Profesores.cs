@@ -71,6 +71,9 @@ namespace Colegio
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            dataGridView2.Visible = true;
+            dataGridView2.DataSource = dt;
             if (textBox6.Text == "0")
             {
                 label2.Visible = true;
@@ -90,6 +93,9 @@ namespace Colegio
 
         private void button2_Click(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            dataGridView2.Visible = true;
+            dataGridView2.DataSource = dt;
             if (textBox6.Text == "0")
             {
                 MessageBox.Show("Primero se debe configurar la materia");
@@ -111,6 +117,15 @@ namespace Colegio
             this.Close();
         }
 
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 43) || (e.KeyChar >= 45 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Solo se reciben numeros", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
@@ -130,6 +145,7 @@ namespace Colegio
         {
             label9.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[1].Value.ToString());
             textBox5.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[0].Value.ToString());
+            label8.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[1].Value.ToString());
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -162,27 +178,65 @@ namespace Colegio
                 button9.Visible = true;
                 textBox8.Visible = false;
                 button7.Visible = false;
+                textBox9.Visible = true;
+                label10.Visible = true;
                 label7.Text = "Nombre";
                 dato = $"SELECT * FROM {textBox1.Text}_Asistencia";
                 llenar2(dato);
             }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)
         {
-            dato = $"SELECT * FROM {textBox1.Text} WHERE Id != 1";
-            insertar = $"UPDATE {textBox1.Text} set [Nota {textBox3.Text}]=@Nota WHERE Id=@Id";
+            dato = $"SELECT * FROM {textBox1.Text}_Asistencia";
+            insertar = $"UPDATE {textBox1.Text}_Asistencia set [Clase N° {textBox9.Text}] = @asis WHERE Id=@Id";
             cn.Open();
             SqlCommand cmd = new SqlCommand(insertar, cn);
-            cmd.Parameters.AddWithValue("@Nota", textBox4.Text);
+            cmd.Parameters.AddWithValue("@asis", button9.Text);
             cmd.Parameters.AddWithValue("@Id", textBox5.Text);
             cmd.ExecuteNonQuery();
             cn.Close();
             dataGridView2.DataSource = llenar2(dato);
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            dato = $"SELECT * FROM {textBox1.Text}_Asistencia";
+            insertar = $"UPDATE {textBox1.Text}_Asistencia set [Clase N° {textBox9.Text}] = @asis WHERE Id=@Id";
+            cn.Open();
+            SqlCommand cmd = new SqlCommand(insertar, cn);
+            cmd.Parameters.AddWithValue("@asis", button8.Text);
+            cmd.Parameters.AddWithValue("@Id", textBox5.Text);
+            cmd.ExecuteNonQuery();
+            cn.Close();
+            dataGridView2.DataSource = llenar2(dato);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (Convert.ToDouble(textBox4.Text) > 5 || Convert.ToDouble(textBox4.Text) < 0)
+            {
+                MessageBox.Show("Valor fuera de los parametros");
+            }
+            else
+            {
+                dato = $"SELECT * FROM {textBox1.Text} WHERE Id != 1";
+                insertar = $"UPDATE {textBox1.Text} set [Nota {textBox3.Text}]=@Nota WHERE Id=@Id";
+                cn.Open();
+                SqlCommand cmd = new SqlCommand(insertar, cn);
+                cmd.Parameters.AddWithValue("@Nota", textBox4.Text);
+                cmd.Parameters.AddWithValue("@Id", textBox5.Text);
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                dataGridView2.DataSource = llenar2(dato);
+            }
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            dataGridView2.Visible = true;
+            dataGridView2.DataSource = dt;
             if (textBox6.Text == "0")
             {
                 MessageBox.Show("Primero se debe configurar la materia");
@@ -199,6 +253,7 @@ namespace Colegio
                     button8.Visible = true;
                     button9.Visible = true;
                     button7.Visible = false;
+                    textBox9.Visible = true;
                     dato = $"SELECT * FROM {textBox1.Text}_Asistencia";
                     llenar2(dato);
                 }
@@ -211,6 +266,8 @@ namespace Colegio
                     button8.Visible = false;
                     button9.Visible = false;
                     textBox8.Visible = true;
+                    textBox9.Visible = false;
+                    label10.Visible = false;
                     label7.Text = "Ingrese la cantidad de clases";
                 }
                 
