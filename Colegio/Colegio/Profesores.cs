@@ -18,6 +18,7 @@ namespace Colegio
         string Conecxion = ConfigurationManager.ConnectionStrings["Colegio.Properties.Settings.Database1ConnectionString"].ConnectionString;
         string dato, Nprofesor, insertar;
         int Opcion = 0, i = 0, R = 100;
+        string[] vec = new string[100];
 
         public Profesores(string profesor)
         {
@@ -58,6 +59,18 @@ namespace Colegio
             da.Fill(dt);
             cn.Close();
             dataGridView3.DataSource = dt;
+            return dt;
+        }
+        public DataTable llenar4(string dato)
+        {
+            cn = new SqlConnection(Conecxion);
+            cn.Open();
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand(dato, cn);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            cn.Close();
+            dataGridView4.DataSource = dt;
             return dt;
         }
         private void Profesores_Load(object sender, EventArgs e)

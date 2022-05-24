@@ -630,7 +630,6 @@ namespace Colegio
                         cmd.Parameters.AddWithValue("@Users", textBox1.Text);
                         cmd.Parameters.AddWithValue("@Passwords", textBox2.Text);
                         cmd.Parameters.AddWithValue("@Id", textBox5.Text);
-                        MessageBox.Show(textBox5.Text);
                         cmd.ExecuteNonQuery();
                         cn.Close();
                         dataGridView1.DataSource = llenar(dato);
@@ -1156,6 +1155,13 @@ namespace Colegio
             label6.Visible = false;
             Btn2 = 0;
             button8_Click(sender, e);
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Imprimir imprimir = new Imprimir();
+            imprimir.Show();
         }
 
         private void button12_Click(object sender, EventArgs e)

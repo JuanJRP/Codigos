@@ -20,3 +20,4 @@ C:\Users\jojan\source\repos\Colegio\Colegio\obj\Debug\Colegio.application
 C:\Users\jojan\source\repos\Colegio\Colegio\obj\Debug\Colegio.Matricula.resources
 C:\Users\jojan\source\repos\Colegio\Colegio\obj\Debug\Colegio.Profesores.resources
 C:\Users\jojan\source\repos\Colegio\Colegio\obj\Debug\Colegio.Estudiantes.resources
+C:\Users\jojan\source\repos\Colegio\Colegio\obj\Debug\Colegio.Imprimir.resources

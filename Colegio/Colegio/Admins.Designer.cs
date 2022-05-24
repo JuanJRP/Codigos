@@ -56,6 +56,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.error1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button13 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.error1)).BeginInit();
             this.SuspendLayout();
@@ -74,7 +75,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button1.Location = new System.Drawing.Point(4, 111);
+            this.button1.Location = new System.Drawing.Point(4, 109);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 23);
             this.button1.TabIndex = 1;
@@ -86,7 +87,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button2.Location = new System.Drawing.Point(4, 140);
+            this.button2.Location = new System.Drawing.Point(4, 138);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 23);
             this.button2.TabIndex = 2;
@@ -98,7 +99,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button3.Location = new System.Drawing.Point(4, 169);
+            this.button3.Location = new System.Drawing.Point(4, 167);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 23);
             this.button3.TabIndex = 3;
@@ -110,7 +111,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button4.Location = new System.Drawing.Point(4, 198);
+            this.button4.Location = new System.Drawing.Point(4, 196);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(133, 23);
             this.button4.TabIndex = 4;
@@ -122,7 +123,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
-            this.button5.Location = new System.Drawing.Point(4, 227);
+            this.button5.Location = new System.Drawing.Point(4, 225);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(133, 23);
             this.button5.TabIndex = 5;
@@ -351,12 +352,25 @@
             // 
             this.error1.ContainerControl = this;
             // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(215)))));
+            this.button13.Location = new System.Drawing.Point(4, 254);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(133, 23);
+            this.button13.TabIndex = 25;
+            this.button13.Text = "Imprimir";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // Admins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label6);
@@ -424,5 +438,6 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.ErrorProvider error1;
+        private System.Windows.Forms.Button button13;
     }
 }
