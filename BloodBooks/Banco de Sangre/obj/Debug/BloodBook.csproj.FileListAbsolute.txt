@@ -1,0 +1,22 @@
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Banco de Sangre.exe.config
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Banco de Sangre.exe
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Banco de Sangre.pdb
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\BloodBook.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\BloodBook.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco_de_Sangre.Blood.resources
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco_de_Sangre.Properties.Resources.resources
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\BloodBook.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\BloodBook.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco de Sangre.exe
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco de Sangre.pdb
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Base.mdf
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Base_log.ldf
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\MySql.Data.dll
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Google.Protobuf.dll
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\MySql.Data.xml
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\BloodBook.csproj.CopyComplete
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Banco de Sangre.exe.manifest
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\bin\Debug\Banco de Sangre.application
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco de Sangre.exe.manifest
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco de Sangre.application
+C:\Users\jojan\source\repos\BloodBooks\Banco de Sangre\obj\Debug\Banco_de_Sangre.frmAñadir.resources

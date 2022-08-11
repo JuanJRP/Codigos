@@ -1,0 +1,11 @@
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\bin\Debug\Jubilacion.exe.config
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\bin\Debug\Jubilacion.exe
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\bin\Debug\Jubilacion.pdb
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.Properties.Resources.resources
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.exe
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.pdb
+C:\Users\jojan\source\repos\Jubilacion\Jubilacion\obj\Debug\Jubilacion.FrmJubilacion.resources

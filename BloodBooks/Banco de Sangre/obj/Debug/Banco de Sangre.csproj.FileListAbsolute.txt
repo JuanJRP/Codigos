@@ -1,0 +1,13 @@
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\bin\Debug\Banco de Sangre.exe.config
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\bin\Debug\Banco de Sangre.exe
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\bin\Debug\Banco de Sangre.pdb
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco_de_Sangre.Properties.Resources.resources
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.exe
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco de Sangre.pdb
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\bin\Debug\banco.mdf
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\bin\Debug\banco_log.ldf
+C:\Users\jojan\source\repos\Banco de Sangre\Banco de Sangre\obj\Debug\Banco_de_Sangre.Banco.resources
