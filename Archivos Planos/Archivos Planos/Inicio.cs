@@ -15,9 +15,20 @@ namespace Archivos_Planos
     public partial class Inicio : Form
     {
         bool leer = false;
-        string direccion;
         int opcion;
-        string folderPath = @Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Archivos Planos";
+        string direccion; string folderPath = @Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Archivos Planos";
+
+        public void Leer(string direccion, string line = "")
+        {
+            try
+            {
+                using (StreamReader reader = new StreamReader(direccion))
+                {
+                    while ((line = reader.ReadLine()) != null){txtInfo.Text += line + "\r\n";}
+                }leer = true;
+            }
+            catch (Exception){}
+        }
         public Inicio()
         {
             InitializeComponent();
@@ -30,18 +41,15 @@ namespace Archivos_Planos
 
         private void cmdModificar_Click(object sender, EventArgs e)
         {
+            cmdOpcion.Visible = false;
+            lblNombre.Visible = false;
+            txtNombre.Visible = false;
             if (leer == true)
             {
                 txtInfo.ReadOnly = false;
                 cmdGuardar.Visible = true;
             }
-            else
-            {
-                MessageBox.Show("Primero debe abrir o crear un archivo.");
-            }
-            cmdOpcion.Visible = false;
-            lblNombre.Visible = false;
-            txtNombre.Visible = false;
+            else{MessageBox.Show("Primero debe abrir o crear un archivo.");}
         }
 
         private void cmdCrear_Click(object sender, EventArgs e)
@@ -79,20 +87,9 @@ namespace Archivos_Planos
                 openFile.Title = "";
                 openFile.ShowDialog();
                 direccion = openFile.FileName;
-                using (StreamReader reader = new StreamReader(direccion))
-                {
-                    string line;
-
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        txtInfo.Text += line + "\r\n";
-                    }
-                }
-                leer = true;
+                Leer(direccion);
             }
-            catch (Exception exp)
-            {
-            }
+            catch(Exception){}
         }
 
         private void cmdGuardar_Click(object sender, EventArgs e)
@@ -103,38 +100,21 @@ namespace Archivos_Planos
                 {
                     foreach (string linea in txtInfo.Lines)
                     {
-                        if (linea == null)
-                        {
-                            writer.WriteLine("\n");
-                        }
-                        else
-                        {
-                            writer.WriteLine(linea);
-                        }
+                        if (linea == null){writer.WriteLine("\n");}
+                        else{writer.WriteLine(linea);}
                     }
-                }
-                MessageBox.Show("Archivo guardado correctamente.");
+                }MessageBox.Show("Archivo guardado correctamente.");
             }
-            catch (Exception exp)
-            {
-                Console.Write(exp.Message);
-            }
+            catch (Exception exp){Console.Write(exp.Message);}
         }
 
         private void cmdOpcion_Click(object sender, EventArgs e)
         {
-            txtInfo.ReadOnly = true;
-            leer = true;
+            txtInfo.ReadOnly = true;leer = true;
             if (opcion == 0)
             {
-                if (!Directory.Exists(folderPath))
-                {
-                    Directory.CreateDirectory(folderPath);
-                }
-                if (txtNombre.Text == "")
-                {
-                    MessageBox.Show("Ingrese un nombre.");
-                }
+                if (!Directory.Exists(folderPath)){Directory.CreateDirectory(folderPath);}
+                if (txtNombre.Text == ""){MessageBox.Show("Ingrese un nombre.");}
                 else if(!File.Exists(folderPath + $"\\{txtNombre.Text}.txt"))
                 {
                     try
@@ -144,50 +124,24 @@ namespace Archivos_Planos
                             MessageBox.Show("Archivo generado correctamente.");
                         }
                     }
-                    catch (Exception exp)
-                    {
-                        Console.Write(exp.Message);
-                    }
-
-                    try
-                    {
-                        direccion = folderPath + $"\\{txtNombre.Text}.txt";
-                        using (StreamReader reader = new StreamReader(direccion))
-                        {
-                            string line;
-                            while ((line = reader.ReadLine()) != null)
-                            {
-                                txtInfo.Text += line + "\r\n";
-                            }
-                        }
-                    }
-                    catch (Exception exp)
-                    {
-                        MessageBox.Show(exp.Message);
-                    }
+                    catch (Exception exp){Console.Write(exp.Message);}
+                    direccion = folderPath + $"\\{txtNombre.Text}.txt";Leer(direccion);
                 }
-                else
-                {
-                    MessageBox.Show("Ya existe un archivo con ese nombre.");
-                }
+                else{MessageBox.Show("Ya existe un archivo con ese nombre.");}
             }
             else if(opcion == 1)
             {
                 if (txtNombre.Text == "")
                 {
                     MessageBox.Show("Ingrese un nombre.");
-                }else if (!File.Exists(folderPath + $"\\{txtNombre.Text}.txt"))
-                {
-                    MessageBox.Show("El archivo no existe.");
-                }
+                }else if (!File.Exists(folderPath + $"\\{txtNombre.Text}.txt")){MessageBox.Show("El archivo no existe.");}
                 else
                 {
                     File.Delete(folderPath + $"\\{txtNombre.Text}.txt");
                     MessageBox.Show("Archivo borrado correctamente.");
                     txtInfo.Clear();
                 }
-            }
-            txtNombre.Clear();
+            }txtNombre.Clear();
         }
     }
 }
