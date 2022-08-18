@@ -1,0 +1,15 @@
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\bin\Debug\Archivos Planos.exe.config
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\bin\Debug\Archivos Planos.exe
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\bin\Debug\Archivos Planos.pdb
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos_Planos.Inicio.resources
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos_Planos.Properties.Resources.resources
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.exe
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.pdb
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\bin\Debug\Archivos Planos.exe.manifest
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\bin\Debug\Archivos Planos.application
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.exe.manifest
+C:\Users\jojan\source\repos\Archivos Planos\Archivos Planos\obj\Debug\Archivos Planos.application

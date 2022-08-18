@@ -174,6 +174,8 @@ namespace Banco_de_Sangre
         private void cmdAñadir_Click(object sender, EventArgs e)
         {
             opcion(Tabla,1);
+            frmAñadir frmA = new frmAñadir();
+            frmA.Show();  
         }
 
         private void cmdBuscar_Click(object sender, EventArgs e)

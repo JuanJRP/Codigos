@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Banco de Sangre.exe" size="103336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Banco de Sangre.exe" size="103848">
       <assemblyIdentity name="Banco de Sangre" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>It81qZmPh4+GbhSouASg8Nk8S+4hkOEXd/U2JuaCXYQ=</dsig:DigestValue>
+        <dsig:DigestValue>+r636ghywxmLVmxwzWWObgwgV2uKMCy6IGAYFWHDk2Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -92,7 +92,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TVR5OeQg78uRd8pOPI9lQBM12x9iV6a6QDb9mOFeQ7U=</dsig:DigestValue>
+      <dsig:DigestValue>EY1OT2R4eUj/toSdTHKoV1o2FBx3xOetgjwkVWPa57E=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Base_log.ldf" size="8388608" writeableType="applicationData">
@@ -101,7 +101,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fgWic6zztRVDioxQdbaIbAQnHWM4m/8HhecZI6ZCXFE=</dsig:DigestValue>
+      <dsig:DigestValue>CijWEMqlyd0gaRxE1LIURiFI982e5DBcf/gQL4d4Oz0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

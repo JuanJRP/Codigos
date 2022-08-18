@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Archivos Planos.exe" version="1.0.0.0" publicKeyToken="3a8da8137d984fdf" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="editor-de-texto.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Archivos Planos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Archivos Planos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Archivos Planos.exe" size="998824">
+      <assemblyIdentity name="Archivos Planos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>viMZLsX7HoVcG/gUQ5KU6fjEURsEXt5oCgHAFMIowkM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Archivos Planos.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="editor-de-texto.ico" size="4726">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hki7gFg//52h/Vh/HRymJB6A76vz/2wF8ice1+kF3C0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP\jojan" issuerKeyHash="ab07688e008021cc4d65485e8b734dc4182fa78d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8Sxz7pblUqXTn+KizZ9CvwBQeiJ9FcSYjZLQ/0PQpPs=</DigestValue></Reference></SignedInfo><SignatureValue>AxyCSBmOFNsMcEnADeOsvlEhuPc2j/PF6YubmK3RIfk2bE1NWRziaAzk+GQvqNK40HSNSpLvYAqf055mY9vNIjarl60wHaXSVvs2358fSttUpIgD1tATFI2zMdtaYg0uB13blckyuifpF2PNXOQUiHyj6HkhYujY5mXX1v3r4TQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sNbXn5IBNHlsqNQ7BePC8sdtZpZgqPAsNLIRv5sqVf+JfUl4lRufyizy3m3HUwNTB8iatwpDk2AN2mIV0hHcHR9deaNGT0700Optd2F18lsPazUlI7VKS77no2oXzQB9l8gtEMKkWnR05dIUkWAINagJc6EVjWFumoI+v9mCBSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fba4d043ffd0928d98c4157d227a5000bf429fcda2e29fd3a552e596ee732cf1" Description="" Url=""><as:assemblyIdentity name="Archivos Planos.exe" version="1.0.0.0" publicKeyToken="3a8da8137d984fdf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP\jojan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EaSdKdzlIuoe7jdHNtX0usolUaxNRgkDnDQ857FUdsQ=</DigestValue></Reference></SignedInfo><SignatureValue>LRrRKtUOhSFYy9YF98wQUvfVYscHrCLL3W/ovxR7nH7jwO9k0CMjiifp0g4lS/NFKAgUS3FlVxBB0JLyAAtG3uOXvGUERDCgg9Q/zDMJASFS2b5qTwIRw4add2cXNhl7CYnfBpxJ2xZCKQhqnJbxkPR99nUNmvnVeMo9oils6tw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sNbXn5IBNHlsqNQ7BePC8sdtZpZgqPAsNLIRv5sqVf+JfUl4lRufyizy3m3HUwNTB8iatwpDk2AN2mIV0hHcHR9deaNGT0700Optd2F18lsPazUlI7VKS77no2oXzQB9l8gtEMKkWnR05dIUkWAINagJc6EVjWFumoI+v9mCBSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQZhQWppbup4RA6knVeUpohzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATABBAFAAVABPAFAAXABqAG8AagBhAG4wHhcNMjIwODE3MjMzMTA0WhcNMjMwODE4MDUzMTA0WjAjMSEwHwYDVQQDHhgATABBAFAAVABPAFAAXABqAG8AagBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALDW15+SATR5bKjUOwXjwvLHbWaWYKjwLDSyEb+bKlX/iX1JeJUbn8os8t5tx1MDUwfImrcKQ5NgDdpiFdIR3B0fXXmjRk9O9NDqbXdhdfJbD2s1JSO1Sku+56NqF80AfZfILRDCpFp0dOXSFJFgCDWoCXOhFY1hbpqCPr/ZggUhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABeXSBmrGlkXC/XvmiOH95O1XyXCqETh3qqS59oqM5k3Y+hIINLRgwaqZOp3LN5byVQsFG47M0k6OjD2DYMy/5nARobDyDp8B53G2kiKZW1JPs5IYy1AZsPyBA8Ff5sWjVaVDc0VdnmMDjKjBNcPLIQrVZvZFt9RzduaTt7Cjkzc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
