@@ -52,7 +52,7 @@
             this.txtInfo.Name = "txtInfo";
             this.txtInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtInfo.Size = new System.Drawing.Size(604, 473);
-            this.txtInfo.TabIndex = 7;
+            this.txtInfo.TabIndex = 10;
             // 
             // cmdLeer
             // 
@@ -131,7 +131,7 @@
             this.cmdSalir.Location = new System.Drawing.Point(12, 443);
             this.cmdSalir.Name = "cmdSalir";
             this.cmdSalir.Size = new System.Drawing.Size(128, 42);
-            this.cmdSalir.TabIndex = 6;
+            this.cmdSalir.TabIndex = 9;
             this.cmdSalir.Text = "Salir";
             this.cmdSalir.UseVisualStyleBackColor = false;
             this.cmdSalir.Click += new System.EventHandler(this.cmdSalir_Click);
@@ -175,7 +175,7 @@
             this.txtNombre.Location = new System.Drawing.Point(12, 299);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(128, 20);
-            this.txtNombre.TabIndex = 9;
+            this.txtNombre.TabIndex = 7;
             this.txtNombre.Visible = false;
             // 
             // lblNombre

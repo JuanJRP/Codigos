@@ -27,7 +27,7 @@ namespace Archivos_Planos
                     while ((line = reader.ReadLine()) != null){txtInfo.Text += line + "\r\n";}
                 }leer = true;
             }
-            catch (Exception){}
+            catch (Exception){leer = false;}
         }
         public Inicio()
         {
