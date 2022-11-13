@@ -1,0 +1,19 @@
+CREATE DATABASE DataCloud;
+
+USE DataCloud;
+
+CREATE TABLE tblUsuario(
+	strNombre VARCHAR(50),
+	strContraseña VARCHAR(50),
+	strCorreo VARCHAR(50),
+	intTelefono BIGINT,
+	PRIMARY KEY (strNombre)
+);
+
+
+CREATE TABLE tblArchivo(
+	strNombreArch VARCHAR(50),
+	strUsuario VARCHAR(50),
+	strTipo VARCHAR(5),
+	FOREIGN KEY (strUsuario) REFERENCES tblUsuario (strNombre)
+);

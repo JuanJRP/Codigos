@@ -41,25 +41,18 @@
             this.tsmGuardar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmNuevo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmNuevo_txt = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmNuevo_rtf = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmNuevo_csv = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmNuevo_xml = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmBorrar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmBorrar_txt = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmBorrar_rtf = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmBorrar_csv = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmBorrar_xml = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmModificar = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmFuente = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmColor = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdCrear = new System.Windows.Forms.Button();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblColumnas = new System.Windows.Forms.Label();
             this.txtColumnas = new System.Windows.Forms.TextBox();
-            this.rtbInfo = new System.Windows.Forms.RichTextBox();
             this.fuente = new System.Windows.Forms.FontDialog();
             this.color = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dtgInfo)).BeginInit();
@@ -147,14 +140,14 @@
             // tsmAbrir
             // 
             this.tsmAbrir.Name = "tsmAbrir";
-            this.tsmAbrir.Size = new System.Drawing.Size(116, 22);
+            this.tsmAbrir.Size = new System.Drawing.Size(180, 22);
             this.tsmAbrir.Text = "Abrir";
             this.tsmAbrir.Click += new System.EventHandler(this.tsmAbrir_Click);
             // 
             // tsmGuardar
             // 
             this.tsmGuardar.Name = "tsmGuardar";
-            this.tsmGuardar.Size = new System.Drawing.Size(116, 22);
+            this.tsmGuardar.Size = new System.Drawing.Size(180, 22);
             this.tsmGuardar.Text = "Guardar";
             this.tsmGuardar.Click += new System.EventHandler(this.tsmGuardar_Click);
             // 
@@ -162,93 +155,59 @@
             // 
             this.tsmNuevo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmNuevo_txt,
-            this.tsmNuevo_rtf,
-            this.tsmNuevo_csv,
-            this.tsmNuevo_xml});
+            this.tsmNuevo_csv});
             this.tsmNuevo.Name = "tsmNuevo";
-            this.tsmNuevo.Size = new System.Drawing.Size(116, 22);
+            this.tsmNuevo.Size = new System.Drawing.Size(180, 22);
             this.tsmNuevo.Text = "Nuevo";
             // 
             // tsmNuevo_txt
             // 
             this.tsmNuevo_txt.Name = "tsmNuevo_txt";
-            this.tsmNuevo_txt.Size = new System.Drawing.Size(98, 22);
+            this.tsmNuevo_txt.Size = new System.Drawing.Size(180, 22);
             this.tsmNuevo_txt.Text = "TXT";
             this.tsmNuevo_txt.Click += new System.EventHandler(this.tsmNuevo_txt_Click);
-            // 
-            // tsmNuevo_rtf
-            // 
-            this.tsmNuevo_rtf.Name = "tsmNuevo_rtf";
-            this.tsmNuevo_rtf.Size = new System.Drawing.Size(98, 22);
-            this.tsmNuevo_rtf.Text = "RTF";
-            this.tsmNuevo_rtf.Click += new System.EventHandler(this.tsmNuevo_rtf_Click);
             // 
             // tsmNuevo_csv
             // 
             this.tsmNuevo_csv.Name = "tsmNuevo_csv";
-            this.tsmNuevo_csv.Size = new System.Drawing.Size(98, 22);
+            this.tsmNuevo_csv.Size = new System.Drawing.Size(180, 22);
             this.tsmNuevo_csv.Text = "CSV";
             this.tsmNuevo_csv.Click += new System.EventHandler(this.tsmNuevo_csv_Click);
-            // 
-            // tsmNuevo_xml
-            // 
-            this.tsmNuevo_xml.Name = "tsmNuevo_xml";
-            this.tsmNuevo_xml.Size = new System.Drawing.Size(98, 22);
-            this.tsmNuevo_xml.Text = "XML";
-            this.tsmNuevo_xml.Click += new System.EventHandler(this.tsmNuevo_xml_Click);
             // 
             // tsmBorrar
             // 
             this.tsmBorrar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmBorrar_txt,
-            this.tsmBorrar_rtf,
-            this.tsmBorrar_csv,
-            this.tsmBorrar_xml});
+            this.tsmBorrar_csv});
             this.tsmBorrar.Name = "tsmBorrar";
-            this.tsmBorrar.Size = new System.Drawing.Size(116, 22);
+            this.tsmBorrar.Size = new System.Drawing.Size(180, 22);
             this.tsmBorrar.Text = "Borrar";
             // 
             // tsmBorrar_txt
             // 
             this.tsmBorrar_txt.Name = "tsmBorrar_txt";
-            this.tsmBorrar_txt.Size = new System.Drawing.Size(133, 22);
+            this.tsmBorrar_txt.Size = new System.Drawing.Size(180, 22);
             this.tsmBorrar_txt.Text = "Borrar TXT";
             this.tsmBorrar_txt.Click += new System.EventHandler(this.tsmBorrar_txt_Click);
-            // 
-            // tsmBorrar_rtf
-            // 
-            this.tsmBorrar_rtf.Name = "tsmBorrar_rtf";
-            this.tsmBorrar_rtf.Size = new System.Drawing.Size(133, 22);
-            this.tsmBorrar_rtf.Text = "Borrar RTF";
-            this.tsmBorrar_rtf.Click += new System.EventHandler(this.tsmBorrar_rtf_Click);
             // 
             // tsmBorrar_csv
             // 
             this.tsmBorrar_csv.Name = "tsmBorrar_csv";
-            this.tsmBorrar_csv.Size = new System.Drawing.Size(133, 22);
+            this.tsmBorrar_csv.Size = new System.Drawing.Size(180, 22);
             this.tsmBorrar_csv.Text = "Borrar CSV";
             this.tsmBorrar_csv.Click += new System.EventHandler(this.tsmBorrar_csv_Click);
-            // 
-            // tsmBorrar_xml
-            // 
-            this.tsmBorrar_xml.Name = "tsmBorrar_xml";
-            this.tsmBorrar_xml.Size = new System.Drawing.Size(133, 22);
-            this.tsmBorrar_xml.Text = "Borrar XML";
-            this.tsmBorrar_xml.Click += new System.EventHandler(this.tsmBorrar_xml_Click);
             // 
             // tsmSalir
             // 
             this.tsmSalir.Name = "tsmSalir";
-            this.tsmSalir.Size = new System.Drawing.Size(116, 22);
+            this.tsmSalir.Size = new System.Drawing.Size(180, 22);
             this.tsmSalir.Text = "Salir";
             this.tsmSalir.Click += new System.EventHandler(this.tsmSalir_Click);
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmModificar,
-            this.tsmFuente,
-            this.tsmColor});
+            this.tsmModificar});
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
             this.modificarToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.modificarToolStripMenuItem.Text = "Edicion";
@@ -260,22 +219,6 @@
             this.tsmModificar.Size = new System.Drawing.Size(180, 22);
             this.tsmModificar.Text = "Modificar";
             this.tsmModificar.Click += new System.EventHandler(this.tsmModificar_Click);
-            // 
-            // tsmFuente
-            // 
-            this.tsmFuente.Enabled = false;
-            this.tsmFuente.Name = "tsmFuente";
-            this.tsmFuente.Size = new System.Drawing.Size(180, 22);
-            this.tsmFuente.Text = "Fuente";
-            this.tsmFuente.Click += new System.EventHandler(this.tsmFuente_Click);
-            // 
-            // tsmColor
-            // 
-            this.tsmColor.Enabled = false;
-            this.tsmColor.Name = "tsmColor";
-            this.tsmColor.Size = new System.Drawing.Size(180, 22);
-            this.tsmColor.Text = "Color";
-            this.tsmColor.Click += new System.EventHandler(this.tsmColor_Click);
             // 
             // cmdCrear
             // 
@@ -335,17 +278,6 @@
             this.txtColumnas.TabIndex = 2;
             this.txtColumnas.Visible = false;
             // 
-            // rtbInfo
-            // 
-            this.rtbInfo.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.rtbInfo.Location = new System.Drawing.Point(12, 39);
-            this.rtbInfo.Name = "rtbInfo";
-            this.rtbInfo.ReadOnly = true;
-            this.rtbInfo.Size = new System.Drawing.Size(750, 446);
-            this.rtbInfo.TabIndex = 31;
-            this.rtbInfo.Text = "";
-            this.rtbInfo.Visible = false;
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -359,7 +291,6 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.menu);
-            this.Controls.Add(this.rtbInfo);
             this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.dtgInfo);
             this.Controls.Add(this.lblLogo);
@@ -391,24 +322,17 @@
         private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmBorrar;
         private System.Windows.Forms.ToolStripMenuItem tsmNuevo_txt;
-        private System.Windows.Forms.ToolStripMenuItem tsmNuevo_rtf;
         private System.Windows.Forms.ToolStripMenuItem tsmNuevo_csv;
-        private System.Windows.Forms.ToolStripMenuItem tsmNuevo_xml;
         public System.Windows.Forms.TextBox txtInfo;
         public System.Windows.Forms.DataGridView dtgInfo;
         private System.Windows.Forms.Button cmdCrear;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.ToolStripMenuItem tsmBorrar_txt;
-        private System.Windows.Forms.ToolStripMenuItem tsmBorrar_rtf;
         private System.Windows.Forms.ToolStripMenuItem tsmBorrar_csv;
-        private System.Windows.Forms.ToolStripMenuItem tsmBorrar_xml;
         private System.Windows.Forms.Label lblColumnas;
         private System.Windows.Forms.TextBox txtColumnas;
         private System.Windows.Forms.ToolStripMenuItem tsmModificar;
-        private System.Windows.Forms.ToolStripMenuItem tsmFuente;
-        private System.Windows.Forms.ToolStripMenuItem tsmColor;
-        private System.Windows.Forms.RichTextBox rtbInfo;
         private System.Windows.Forms.FontDialog fuente;
         private System.Windows.Forms.ColorDialog color;
     }

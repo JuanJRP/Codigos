@@ -1,0 +1,13 @@
+CREATE DATABASE login;
+
+USE login;
+
+CREATE TABLE tblRegistro(
+	strUsuario VARCHAR(50),
+	strContraseña VARCHAR(50),
+	strCorreo VARCHAR(50),
+	intTelefono BIGINT,
+	PRIMARY KEY (strUsuario)
+);
+
+INSERT INTO tblRegistro VALUES ('admin','admin','admin@gmail.com',1556445455444);

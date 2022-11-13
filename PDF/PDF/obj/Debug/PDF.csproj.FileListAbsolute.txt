@@ -1,0 +1,16 @@
+C:\Users\jojan\Desktop\PDF\PDF\bin\Debug\PDF.exe.config
+C:\Users\jojan\Desktop\PDF\PDF\bin\Debug\PDF.exe
+C:\Users\jojan\Desktop\PDF\PDF\bin\Debug\PDF.pdb
+C:\Users\jojan\Desktop\PDF\PDF\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jojan\Desktop\PDF\PDF\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.csproj.AssemblyReference.cache
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.csproj.ResolveComReference.cache
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.FormPDF.resources
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.Properties.Resources.resources
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.csproj.GenerateResource.cache
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.csproj.CoreCompileInputs.cache
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.exe
+C:\Users\jojan\Desktop\PDF\PDF\obj\Debug\PDF.pdb

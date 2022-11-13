@@ -1,0 +1,7 @@
+La base de datos que se uso fue XAMMP con PHPMyAdmin (MySQL)
+
+Opciones:
+
+1) Crear la base de datos llamada login e importar el archivo adjunto login.sql
+
+2) Ejecutar en PHPMyAdmin el codigo de archivo adjunto login.txt

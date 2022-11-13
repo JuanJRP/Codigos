@@ -1,0 +1,73 @@
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.exe
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.pdb
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login_Bases_de_datos.frmLogin.resources
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login_Bases_de_datos.Properties.Resources.resources
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.exe
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.pdb
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\MySql.Data.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\Google.Protobuf.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\ZstdNet.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\System.Memory.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\System.Buffers.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\bin\Debug\MySql.Data.xml
+C:\Users\jojan\source\repos\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CopyComplete
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.exe
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\Login Bases de datos.pdb
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\MySql.Data.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\Google.Protobuf.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\ZstdNet.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\System.Memory.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\System.Buffers.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\bin\Debug\MySql.Data.xml
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.AssemblyReference.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login_Bases_de_datos.frmLogin.resources
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login_Bases_de_datos.Properties.Resources.resources
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.GenerateResource.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CoreCompileInputs.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CopyComplete
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.exe
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Login Bases de datos\obj\Debug\Login Bases de datos.pdb
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.AssemblyReference.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login_Bases_de_datos.frmLogin.resources
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login_Bases_de_datos.Properties.Resources.resources
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.GenerateResource.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CoreCompileInputs.cache
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.exe
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.pdb
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Login Bases de datos.exe.manifest
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Login Bases de datos.application
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Login Bases de datos.exe
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Login Bases de datos.pdb
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\MySql.Data.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\Google.Protobuf.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\ZstdNet.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\System.Memory.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\System.Buffers.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\bin\Debug\MySql.Data.xml
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.exe.config
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.exe.manifest
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.application
+C:\Users\jojan\Desktop\Tarea Herramientas de programacion II\Login Bases de datos\Programa\Login Bases de datos\obj\Debug\Login Bases de datos.csproj.CopyComplete

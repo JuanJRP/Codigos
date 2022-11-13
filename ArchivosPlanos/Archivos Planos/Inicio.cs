@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Archivos_Planos
@@ -114,24 +113,7 @@ namespace Archivos_Planos
                     }
                     catch (Exception) { leer = false; }
                     break;
-
-                case "xml":
-                    DataSet dataSet = new DataSet();
-                    dataSet.ReadXml(direccion);
-                    dtgInfo.DataSource = dataSet.Tables[0];
-                    leer = true;
-                    break;
-
-                case "rtf":
-                    rtbInfo.LoadFile(direccion);
-                    leer = true;
-                    break;
             }
-        }
-        public void opciones()
-        {
-            tsmColor.Enabled = false;
-            tsmFuente.Enabled = false;
         }
 
         /*---------------------------------------------Inicio--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -151,15 +133,7 @@ namespace Archivos_Planos
                         txtInfo.ReadOnly = false;
                         break;
 
-                    case "rtf":
-                        rtbInfo.ReadOnly = false;
-                        break;
-
                     case "csv":
-                        dtgInfo.ReadOnly = false;
-                        break;
-
-                    case "xml":
                         dtgInfo.ReadOnly = false;
                         break;
                 }
@@ -187,22 +161,6 @@ namespace Archivos_Planos
             dtgInfo.Visible = false;
             lblLogo.Visible = false;
         }
-        private void tsmBorrar_rtf_Click(object sender, EventArgs e)
-        {
-            txtInfo.Clear();
-            txtNombre.Clear();
-            txtColumnas.Clear();
-            tsmModificar.Enabled = false;
-            opcion = 1;
-            borrar = "rtf";
-            cmdCrear.Visible = true;
-            cmdCrear.Text = "Borrar RTF";
-            lblNombre.Visible = true;
-            txtNombre.Visible = true;
-            txtInfo.Visible = false;
-            dtgInfo.Visible = false;
-            lblLogo.Visible = false;
-        }
 
         private void tsmBorrar_csv_Click(object sender, EventArgs e)
         {
@@ -214,23 +172,6 @@ namespace Archivos_Planos
             borrar = "csv";
             cmdCrear.Visible = true;
             cmdCrear.Text = "Borrar CSV";
-            lblNombre.Visible = true;
-            txtNombre.Visible = true;
-            txtInfo.Visible = false;
-            dtgInfo.Visible = false;
-            lblLogo.Visible = false;
-        }
-
-        private void tsmBorrar_xml_Click(object sender, EventArgs e)
-        {
-            txtInfo.Clear();
-            txtNombre.Clear();
-            txtColumnas.Clear();
-            tsmModificar.Enabled = false;
-            opcion = 1;
-            borrar = "xml";
-            cmdCrear.Visible = true;
-            cmdCrear.Text = "Borrar XML";
             lblNombre.Visible = true;
             txtNombre.Visible = true;
             txtInfo.Visible = false;
@@ -255,10 +196,8 @@ namespace Archivos_Planos
             txtInfo.Visible = false;
             dtgInfo.Visible = false;
             lblLogo.Visible = false;
-            rtbInfo.Visible = false;
             txtColumnas.Visible = false;
             lblColumnas.Visible = false;
-            opciones();
             leer = true;
         }
 
@@ -277,72 +216,9 @@ namespace Archivos_Planos
             txtInfo.Visible = false;
             dtgInfo.Visible = false;
             lblLogo.Visible = false;
-            rtbInfo.Visible = false;
             txtColumnas.Visible = true;
             lblColumnas.Visible = true;
-            opciones();
             leer = true;
-        }
-
-        private void tsmNuevo_rtf_Click(object sender, EventArgs e)
-        {
-            txtInfo.Clear();
-            txtNombre.Clear();
-            txtColumnas.Clear();
-            opcion = 0;
-            tipo = "rtf";
-            cmdCrear.Visible = true;
-            cmdCrear.Text = "Crear RTF";
-            lblNombre.Visible = true;
-            txtNombre.Visible = true;
-            txtInfo.Visible = false;
-            rtbInfo.Visible = false;
-            dtgInfo.Visible = false;
-            lblLogo.Visible = false;
-            txtColumnas.Visible = false;
-            lblColumnas.Visible = false;
-            tsmColor.Enabled = true;
-            tsmModificar.Enabled = false;
-            tsmFuente.Enabled = true;
-            leer = true;
-        }
-
-        private void tsmNuevo_xml_Click(object sender, EventArgs e)
-        {
-            txtInfo.Clear();
-            txtNombre.Clear();
-            txtColumnas.Clear();
-            opcion = 0;
-            tipo = "xml";
-            cmdCrear.Visible = true;
-            cmdCrear.Text = "Crear XML";
-            lblNombre.Visible = true;
-            txtNombre.Visible = true;
-            txtInfo.Visible = false;
-            rtbInfo.Visible = false;
-            dtgInfo.Visible = false;
-            lblLogo.Visible = false;
-            tsmModificar.Enabled = false;
-            txtColumnas.Visible = false;
-            lblColumnas.Visible = false;
-            opciones();
-            leer = true;
-        }
-
-        private void tsmFuente_Click(object sender, EventArgs e)
-        {
-            if (fuente.ShowDialog() == DialogResult.OK)
-            {
-                rtbInfo.SelectionFont = fuente.Font;
-            }
-        }
-
-        private void tsmColor_Click(object sender, EventArgs e)
-        {
-            if (color.ShowDialog() == DialogResult.OK)
-            {
-                rtbInfo.SelectionColor = color.Color;
-            }
         }
 
         private void cmdCrear_Click(object sender, EventArgs e)
@@ -374,7 +250,6 @@ namespace Archivos_Planos
                             cmdCrear.Visible = false;
                             lblNombre.Visible = false;
                             txtNombre.Visible = false;
-                            rtbInfo.Visible = false;
                         }
                         else { MessageBox.Show("Ya existe un archivo con ese nombre."); }
                         break;
@@ -432,54 +307,6 @@ namespace Archivos_Planos
                         txtNombre.Visible = false;
                         txtColumnas.Visible = false;
                         lblColumnas.Visible = false;
-                        rtbInfo.Visible = false;
-                        break;
-
-                    case "rtf":
-                        if (txtNombre.Text == "") { MessageBox.Show("Ingrese un nombre."); }
-                        else if (!File.Exists(folderPath + $"\\{txtNombre.Text}.rtf"))
-                        {
-                            RichTextBox crear = new RichTextBox();
-
-                            crear.SaveFile(folderPath + $"\\{txtNombre.Text}.rtf", RichTextBoxStreamType.RichText);
-                            leer = true;
-                            direccion = folderPath + $"\\{txtNombre.Text}.rtf";
-                            Leer(direccion);
-                            txtInfo.Visible = false;
-                            dtgInfo.Visible = false;
-                            rtbInfo.Visible = true;
-                            cmdCrear.Visible = false;
-                            lblNombre.Visible = false;
-                            txtNombre.Visible = false;
-                            tsmModificar.Enabled = true;
-                        }
-                        else { MessageBox.Show("Ya existe un archivo con ese nombre."); }
-                        break;
-
-                    case "xml":
-                        if (txtNombre.Text == "") { MessageBox.Show("Ingrese un nombre."); }
-                        else if (!File.Exists(folderPath + $"\\{txtNombre.Text}.xml"))
-                        {
-                            List<CXML> p1 = new List<CXML>();
-                            XmlSerializer serial = new XmlSerializer(typeof(List<CXML>));
-                            p1.Add(new CXML() { Primer_Nombre = " ", Segundo_Nombre = " ", Apellido = " ", cedula = " ", Correo = " ", Direccion = " ", Edad = " ", Telefono = " " });
-                            using (System.IO.FileStream FS = new FileStream(folderPath + $"\\{txtNombre.Text}.xml", FileMode.Create, FileAccess.Write))
-                            {
-                                serial.Serialize(FS, p1);
-                                MessageBox.Show("Archivo generado correctamente.");
-                            }
-                            direccion = folderPath + $"\\{txtNombre.Text}.xml";
-                            Leer(direccion);
-                            txtInfo.Visible = false;
-                            dtgInfo.Visible = true;
-                            rtbInfo.Visible = false;
-                            cmdCrear.Visible = false;
-                            lblNombre.Visible = false;
-                            txtNombre.Visible = false;
-                            tsmModificar.Enabled = true;
-                            leer = true;
-                        }
-                        else { MessageBox.Show("Ya existe un archivo con ese nombre."); }
                         break;
                 }
             }
@@ -567,46 +394,6 @@ namespace Archivos_Planos
                             MessageBox.Show("La carpeta indicada para el fichero de exportación CSV no existe.");
                         }
                     }
-
-                    break;
-
-                case "rtf":
-                    rtbInfo.SaveFile(direccion,RichTextBoxStreamType.RichText);
-                    MessageBox.Show("Archivo Guardado Correctamente");
-                    break;
-
-                case "xml":
-                    try
-                    {
-                        List<CXML> p1 = new List<CXML>();
-
-                        XmlSerializer serial = new XmlSerializer(typeof(List<CXML>));
-
-                        for (int i = 0; i < dtgInfo.Rows.Count - 1; i++)
-                        {
-                            p1.Add(new CXML()
-                            {
-                                Primer_Nombre = "" + dtgInfo.Rows[i].Cells[0].Value,
-                                Segundo_Nombre = "" + dtgInfo.Rows[i].Cells[1].Value,
-                                Apellido = "" + dtgInfo.Rows[i].Cells[2].Value,
-                                cedula = "" + dtgInfo.Rows[i].Cells[3].Value,
-                                Correo = "" + dtgInfo.Rows[i].Cells[4].Value,
-                                Direccion = "" + dtgInfo.Rows[i].Cells[5].Value,
-                                Edad = "" + dtgInfo.Rows[i].Cells[6].Value,
-                                Telefono = "" + dtgInfo.Rows[i].Cells[7].Value
-                            });
-                        }
-
-                        using (System.IO.FileStream FS = new FileStream(direccion, FileMode.Create, FileAccess.Write))
-                        {
-                            serial.Serialize(FS, p1);
-                            MessageBox.Show("Archivo Guardado correctamente.");
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        MessageBox.Show("Error la guardar");
-                    }
                     break;
             }
         }
@@ -620,7 +407,7 @@ namespace Archivos_Planos
                 txtInfo.ReadOnly = true;
                 txtInfo.Clear();
                 openFile.Title = "";
-                openFile.Filter = "Todos los archivos (*.*)|*.*|Archivos txt (*.txt)|*.txt|Archivos csv (*.csv*)|*.csv*|Archivos rtf (*.rft*)|*.rtf*|Archivos xml (*.xml*)|*.xml*";
+                openFile.Filter = "Todos los archivos (*.*)|*.*|Archivos txt (*.txt)|*.txt|Archivos csv (*.csv*)|*.csv*";
                 openFile.ShowDialog();
                 direccion = openFile.FileName;
                 tipo = String.Empty;
@@ -628,8 +415,6 @@ namespace Archivos_Planos
                 {
                     case string info when direccion.ToLower().Contains("txt"): tipo = "txt"; break;
                     case string info when direccion.ToLower().Contains("csv"): tipo = "csv"; break;
-                    case string info when direccion.ToLower().Contains("rtf"): tipo = "rtf"; break;
-                    case string info when direccion.ToLower().Contains("xml"): tipo = "xml"; break;
                     default: break;
                 }
                 switch (tipo)
@@ -638,20 +423,8 @@ namespace Archivos_Planos
                         Leer(direccion);
                         txtInfo.Visible = true;
                         dtgInfo.Visible = false;
-                        rtbInfo.Visible = false;
                         tsmModificar.Enabled = true;
                         leer = true;
-                        opciones();
-                        break;
-
-                    case "xml":
-                        Leer(direccion);
-                        txtInfo.Visible = false;
-                        dtgInfo.Visible = true;
-                        rtbInfo.Visible = false;
-                        tsmModificar.Enabled = true;
-                        leer = true;
-                        opciones();
                         break;
 
                     case "csv":
@@ -665,20 +438,7 @@ namespace Archivos_Planos
                         }
                         txtInfo.Visible = false;
                         dtgInfo.Visible = true;
-                        rtbInfo.Visible = false;
                         tsmModificar.Enabled = true;
-                        leer = true;
-                        opciones();
-                        break;
-
-                    case "rtf":
-                        Leer(direccion);
-                        txtInfo.Visible = false;
-                        dtgInfo.Visible = false;
-                        rtbInfo.Visible = true;
-                        tsmModificar.Enabled = true;
-                        tsmFuente.Enabled = true;
-                        tsmColor.Enabled = true;
                         leer = true;
                         break;
                 }

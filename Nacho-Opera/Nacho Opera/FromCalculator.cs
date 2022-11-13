@@ -27,6 +27,7 @@ namespace Nacho_Opera
         {
             if(Count != 16)
             {
+                CE = 0;
                 Count += 1;
                 if (equals == 1)
                 {

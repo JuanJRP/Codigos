@@ -1,0 +1,32 @@
+C:\Users\jojan\Desktop\Web Browser\Web Browser\bin\Debug\Web Browser.exe.config
+C:\Users\jojan\Desktop\Web Browser\Web Browser\bin\Debug\Web Browser.exe
+C:\Users\jojan\Desktop\Web Browser\Web Browser\bin\Debug\Web Browser.pdb
+C:\Users\jojan\Desktop\Web Browser\Web Browser\bin\Debug\Interop.SHDocVw.dll
+C:\Users\jojan\Desktop\Web Browser\Web Browser\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.AssemblyReference.cache
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Interop.SHDocVw.dll
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.ResolveComReference.cache
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web_Browser.Form1.resources
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web_Browser.Properties.Resources.resources
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.GenerateResource.cache
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.CoreCompileInputs.cache
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.exe
+C:\Users\jojan\Desktop\Web Browser\Web Browser\obj\Debug\Web Browser.pdb
+C:\Users\jojan\source\repos\Web Browser\Web Browser\bin\Debug\Web Browser.exe.config
+C:\Users\jojan\source\repos\Web Browser\Web Browser\bin\Debug\Web Browser.exe
+C:\Users\jojan\source\repos\Web Browser\Web Browser\bin\Debug\Web Browser.pdb
+C:\Users\jojan\source\repos\Web Browser\Web Browser\bin\Debug\Interop.SHDocVw.dll
+C:\Users\jojan\source\repos\Web Browser\Web Browser\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Interop.SHDocVw.dll
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.ResolveComReference.cache
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web_Browser.Properties.Resources.resources
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.GenerateResource.cache
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.exe
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web Browser.pdb
+C:\Users\jojan\source\repos\Web Browser\Web Browser\obj\Debug\Web_Browser.FormWebBrowser.resources

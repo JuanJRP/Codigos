@@ -1,0 +1,8 @@
+C:\Users\jojan\source\repos\Informacion\Informacion\obj\Debug\Informacion.csproj.AssemblyReference.cache
+C:\Users\jojan\source\repos\Informacion\Informacion\obj\Debug\Informacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\jojan\source\repos\Informacion\Informacion\obj\Debug\Informacion.csproj.CoreCompileInputs.cache
+C:\Users\jojan\source\repos\Informacion\Informacion\bin\Debug\Informacion.exe.config
+C:\Users\jojan\source\repos\Informacion\Informacion\bin\Debug\Informacion.exe
+C:\Users\jojan\source\repos\Informacion\Informacion\bin\Debug\Informacion.pdb
+C:\Users\jojan\source\repos\Informacion\Informacion\obj\Debug\Informacion.exe
+C:\Users\jojan\source\repos\Informacion\Informacion\obj\Debug\Informacion.pdb
